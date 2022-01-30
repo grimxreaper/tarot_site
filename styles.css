@@ -20,7 +20,7 @@ p {
 
 .wrapper {
   max-width: 1440px;
-  padding: 10px;
+  padding: 42px;
 }
 
 .logo_title {
@@ -58,6 +58,7 @@ p {
   font-family: "Rubik";
   font-size: 22px;
   text-transform: lowercase;
+  letter-spacing: 0.8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

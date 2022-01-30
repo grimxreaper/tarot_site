@@ -24,7 +24,7 @@ p {
 
 .wrapper {
     max-width: 1440px;
-    padding: 10px;
+    padding: 42px;
 }
 
 
@@ -69,5 +69,6 @@ p {
         font-family: $body;
         font-size: 22px;
         text-transform: lowercase;
+        letter-spacing: .8px;
     }
 }
