@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: floralwhite;
+  background-color: #fff;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
 p {
   font-family: "Rubik";
   font-weight: 400;
-  line-height: 22px;
+  line-height: 30px;
   font-size: 20px;
   color: #494949;
 }
@@ -61,11 +61,27 @@ p {
   letter-spacing: 0.8px;
 }
 
+.sparkle_one {
+  width: 20px;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+.sparkle_two {
+  width: 33px;
+  position: absolute;
+  top: 0px;
+}
+
 .block.hero-1 {
   display: flex;
 }
 .block.hero-1 .row {
+  display: flex;
+  flex-direction: row;
   margin-top: 90px;
+  position: relative;
 }
 .block.hero-1 .col {
   display: flex;
@@ -79,11 +95,14 @@ p {
 .block.hero-1 .heading {
   font-family: "Marcellus", serif;
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .block.hero-1 .arrow {
   width: 100px;
   margin-bottom: 20px;
+}
+.block.hero-1 .logo {
+  width: 408px;
 }
 
 /*# sourceMappingURL=styles.css.map */
