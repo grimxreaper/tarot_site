@@ -121,8 +121,17 @@ p {
   display: flex;
   flex-direction: column;
 }
+.block.hero-2 .row .col:nth-child(2) {
+  margin-top: 60px;
+}
+.block.hero-2 .row .col:nth-child(3) {
+  margin-top: 60px;
+}
 .block.hero-2 .oval_logo {
   width: 208px;
+}
+.block.hero-2 .arrow {
+  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
