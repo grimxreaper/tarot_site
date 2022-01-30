@@ -105,6 +105,9 @@ p {
   width: 100px;
   margin-bottom: 20px;
 }
+.block.hero-1 p {
+  background-image: linear-gradient(250deg, #f7d7d4 0%, #e0e5f0 16%, #bcd4eb 41%, #bfcaf2 65%, #dfcaf2 85%, #ceb9df 100%);
+}
 
 .block.hero-2 .logo {
   width: 208px;
