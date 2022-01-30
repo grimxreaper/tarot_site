@@ -138,6 +138,20 @@ p {
 }
 
 .block.hero-2 {
+    display: flex;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+
+    
+        .col {
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
   .logo {
     width: 208px;
   }
