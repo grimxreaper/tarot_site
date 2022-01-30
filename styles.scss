@@ -24,7 +24,7 @@ p {
 
 .wrapper {
     max-width: 1440px;
-    padding: 42px;
+    padding: 35px 96px;
 }
 
 
@@ -51,7 +51,7 @@ p {
         &:nth-child(2){
             width: 500px;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             margin-top: 20px;
             margin-left: 63px;
         }
@@ -70,5 +70,39 @@ p {
         font-size: 22px;
         text-transform: lowercase;
         letter-spacing: .8px;
+    }
+}
+
+.block.hero-1 {
+    display: flex;
+
+    .row {
+        margin-top: 90px;
+
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+
+        &:nth-child(2){
+            width: 500px;
+        }
+    }
+
+
+    .heading {
+        font-family: 'Marcellus', serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+
+    }
+
+    
+    .arrow {
+        width: 100px;
+        margin-bottom: 20px;
     }
 }

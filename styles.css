@@ -20,7 +20,7 @@ p {
 
 .wrapper {
   max-width: 1440px;
-  padding: 42px;
+  padding: 35px 96px;
 }
 
 .logo_title {
@@ -43,7 +43,7 @@ p {
 .nav .col:nth-child(2) {
   width: 500px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 20px;
   margin-left: 63px;
 }
@@ -59,6 +59,31 @@ p {
   font-size: 22px;
   text-transform: lowercase;
   letter-spacing: 0.8px;
+}
+
+.block.hero-1 {
+  display: flex;
+}
+.block.hero-1 .row {
+  margin-top: 90px;
+}
+.block.hero-1 .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+.block.hero-1 .col:nth-child(2) {
+  width: 500px;
+}
+.block.hero-1 .heading {
+  font-family: "Marcellus", serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.block.hero-1 .arrow {
+  width: 100px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
