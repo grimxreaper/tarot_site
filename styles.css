@@ -82,6 +82,8 @@ p {
   flex-direction: row;
   margin-top: 90px;
   position: relative;
+  gap: 133px;
+  height: 450px;
 }
 .block.hero-1 .col {
   display: flex;
@@ -91,6 +93,8 @@ p {
 }
 .block.hero-1 .col:nth-child(2) {
   width: 500px;
+  background-image: linear-gradient(250deg, #f7d7d4 0%, #e0e5f0 16%, #bcd4eb 41%, #bfcaf2 65%, #dfcaf2 85%, #ceb9df 100%);
+  border-radius: 5%;
 }
 .block.hero-1 .heading {
   font-family: "Marcellus", serif;
@@ -101,8 +105,9 @@ p {
   width: 100px;
   margin-bottom: 20px;
 }
-.block.hero-1 .logo {
-  width: 408px;
+
+.block.hero-2 .logo {
+  width: 208px;
 }
 
 /*# sourceMappingURL=styles.css.map */
