@@ -143,17 +143,18 @@ p {
     .row {
         display: flex;
         flex-direction: row;
-        gap: 80px;
+        gap: 44px;
 
     
         .col {
             display: flex;
             flex-direction: column;
-            
+
         }
     }
-  .logo {
-    width: 208px;
+
+  .oval_logo {
+    width: 108px;
   }
 
 

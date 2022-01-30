@@ -115,14 +115,14 @@ p {
 .block.hero-2 .row {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 44px;
 }
 .block.hero-2 .row .col {
   display: flex;
   flex-direction: column;
 }
-.block.hero-2 .logo {
-  width: 208px;
+.block.hero-2 .oval_logo {
+  width: 108px;
 }
 
 /*# sourceMappingURL=styles.css.map */
