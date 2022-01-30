@@ -1,12 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+  }
+
+$body: 'Rubik';
+
+
 h1 {
     font-family: 'Marcellus', serif;
     font-size: 40px;
 }
 
 p {
-    font-family: 'Rubik';
+    font-family: $body;
     font-weight: 400;
     line-height: 22px;
     font-size: 20px;
     color:rgb(73, 73, 73);
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    padding: 10px;
+}
+
+
+.logo_title {
+    width: 280px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col {
+        display: flex;
+        width: 400px;
+
+    
+        &:nth-child(2){
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 63px;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        text-decoration: none;
+        list-style: none;
+        padding-right: 36px;
+        font-family: $body;
+        font-size: 22px;
+        text-transform: lowercase;
+    }
 }

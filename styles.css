@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+}
+
 h1 {
   font-family: "Marcellus", serif;
   font-size: 40px;
@@ -9,6 +16,48 @@ p {
   line-height: 22px;
   font-size: 20px;
   color: #494949;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 10px;
+}
+
+.logo_title {
+  width: 280px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .row {
+  display: flex;
+  flex-direction: row;
+}
+.nav .col {
+  display: flex;
+  width: 400px;
+}
+.nav .col:nth-child(2) {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 63px;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav li {
+  text-decoration: none;
+  list-style: none;
+  padding-right: 36px;
+  font-family: "Rubik";
+  font-size: 22px;
+  text-transform: lowercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
