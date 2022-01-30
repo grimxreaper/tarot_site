@@ -41,7 +41,7 @@ p {
   width: 400px;
 }
 .nav .col:nth-child(2) {
-  width: 500px;
+  width: 592px;
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
@@ -122,7 +122,7 @@ p {
   flex-direction: column;
 }
 .block.hero-2 .oval_logo {
-  width: 108px;
+  width: 208px;
 }
 
 /*# sourceMappingURL=styles.css.map */
