@@ -181,14 +181,10 @@ p {
         flex-direction: row;
         gap: 100px;
     
-        .col {
+        .col_left {
             width: 600px;
             margin-top: 50px;
 
-
-            &:nth-child(2){
-                width: auto;
-            }
         }
 
 
