@@ -21,8 +21,9 @@ p {
 }
 
 .wrapper {
-  max-width: 1440px;
-  padding: 35px 96px;
+  margin: auto;
+  max-width: 1080px;
+  padding: 35px 31px;
 }
 
 .logo_title {
@@ -143,13 +144,13 @@ p {
     .row {
         display: flex;
         flex-direction: row;
-        gap: 44px;
+        justify-content: center;
+        gap: 140px;
 
     
         .col {
             display: flex;
             flex-direction: column;
-
 
             &:nth-child(2){
                 margin-top: 60px;
@@ -162,15 +163,12 @@ p {
         }
     }
 
-  .oval_logo {
-    width: 208px;
+  .creature {
+    width: 258px;
   }
 
   .arrow {
       width: 100px;
   }
-
-  
-
 
 }
