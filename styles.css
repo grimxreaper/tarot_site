@@ -136,6 +136,9 @@ p {
   width: 100px;
 }
 
+.block.hero-3 {
+  margin-top: 80px;
+}
 .block.hero-3 .row {
   display: flex;
   flex-direction: row;
