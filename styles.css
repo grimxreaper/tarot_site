@@ -152,8 +152,9 @@ p {
   width: 350px;
 }
 
-.footer .fa-github {
-  width: 30px;
+i.fab.fa-github,
+i.fab.fa-twitter {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
