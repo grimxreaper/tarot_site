@@ -136,4 +136,12 @@ p {
   width: 100px;
 }
 
+.block.hero-3 .row {
+  display: flex;
+  flex-direction: row;
+}
+.block.hero-3 .portrait {
+  width: 350px;
+}
+
 /*# sourceMappingURL=styles.css.map */

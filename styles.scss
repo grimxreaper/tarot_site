@@ -172,3 +172,14 @@ p {
   }
 
 }
+
+.block.hero-3 {
+    .row {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .portrait {
+        width: 350px;
+    }
+}
