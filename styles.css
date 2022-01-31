@@ -136,12 +136,20 @@ p {
   width: 100px;
 }
 
-.block.hero-3 {
-  margin-top: 80px;
-}
 .block.hero-3 .row {
   display: flex;
   flex-direction: row;
+  gap: 100px;
+}
+.block.hero-3 .row .col {
+  width: 600px;
+  margin-top: 50px;
+}
+.block.hero-3 .row .col:nth-child(2) {
+  width: auto;
+}
+.block.hero-3 h1 {
+  margin-bottom: 30px;
 }
 .block.hero-3 .portrait {
   width: 350px;

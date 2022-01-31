@@ -174,14 +174,32 @@ p {
 }
 
 .block.hero-3 {
-    margin-top: 80px;
+    // margin-top: 50px;
 
     .row {
         display: flex;
         flex-direction: row;
+        gap: 100px;
     
+        .col {
+            width: 600px;
+            margin-top: 50px;
+
+
+            &:nth-child(2){
+                width: auto;
+            }
+        }
+
+
+    
+    }
+
+    h1 {
+        margin-bottom: 30px;
     }
     .portrait {
         width: 350px;
     }
+
 }
