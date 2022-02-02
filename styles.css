@@ -130,9 +130,6 @@ p {
 .block.hero-2 .row .col:nth-child(3) {
   margin-top: 60px;
 }
-.block.hero-2 .creature {
-  width: 258px;
-}
 .block.hero-2 .arrow {
   margin-top: 10px;
   width: 122px;
@@ -164,6 +161,9 @@ p {
   width: 350px;
 }
 
+.block.hero-4 {
+  display: flex;
+}
 .block.hero-4 .row {
   display: flex;
   flex-direction: row;
@@ -171,8 +171,16 @@ p {
 .block.hero-4 .row .col {
   display: flex;
   width: 600px;
+  flex-direction: column;
+}
+.block.hero-4 .row .col:nth-child(2) {
+  display: flex;
+  width: 600px;
   gap: 13px;
   flex-direction: column;
+}
+.block.hero-4 .creature {
+  width: 300px;
 }
 .block.hero-4 h4 {
   font-family: "Rubik";
