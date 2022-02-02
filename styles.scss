@@ -34,7 +34,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 
   .row {
     display: flex;
@@ -166,7 +165,6 @@ p {
     width: 225px;
   }
 
-
   .arrow {
     margin-top: 10px;
     width: 122px;
@@ -180,7 +178,9 @@ p {
     line-height: 40px;
     color: rgb(73, 73, 73);
     font-size: 40px;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>") 16 0,auto;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>")
+        16 0,
+      auto;
   }
 
   .curious.question {
@@ -189,9 +189,6 @@ p {
 }
 
 .block.hero-3 {
-  // margin-top: 50px;
-  
-
   .row {
     display: flex;
     flex-direction: row;
@@ -199,14 +196,14 @@ p {
 
     .col_left {
       width: 600px;
-      margin-top: 50px;
+      margin-top: 16px;
     }
   }
   h1 {
     margin-bottom: 30px;
   }
   .portrait {
-    width: 350px;
+    width: 249px;
   }
 }
 
@@ -221,14 +218,13 @@ p {
       width: 600px;
       flex-direction: column;
 
-      &:nth-child(2){
+      &:nth-child(2) {
         display: flex;
         width: 600px;
         gap: 13px;
         flex-direction: column;
         text-align: center;
       }
-
     }
   }
 
