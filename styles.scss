@@ -162,6 +162,10 @@ p {
     }
   }
 
+  .creature {
+    width: 100px;
+  }
+
 
   .arrow {
     margin-top: 10px;
@@ -218,6 +222,7 @@ p {
         width: 600px;
         gap: 13px;
         flex-direction: column;
+        text-align: center;
       }
 
     }

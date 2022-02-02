@@ -130,6 +130,9 @@ p {
 .block.hero-2 .row .col:nth-child(3) {
   margin-top: 60px;
 }
+.block.hero-2 .creature {
+  width: 100px;
+}
 .block.hero-2 .arrow {
   margin-top: 10px;
   width: 122px;
@@ -178,6 +181,7 @@ p {
   width: 600px;
   gap: 13px;
   flex-direction: column;
+  text-align: center;
 }
 .block.hero-4 .creature {
   width: 300px;
