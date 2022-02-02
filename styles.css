@@ -165,6 +165,14 @@ p {
   width: 350px;
 }
 
+.block.hero-4 .row {
+  display: flex;
+  flex-direction: row;
+}
+.block.hero-4 .row .col {
+  width: 600px;
+}
+
 i.fab.fa-github,
 i.fab.fa-twitter {
   font-size: 30px;
