@@ -170,7 +170,10 @@ p {
   flex-direction: row;
 }
 .block.hero-4 .row .col {
+  display: flex;
   width: 600px;
+  gap: 13px;
+  flex-direction: column;
 }
 .block.hero-4 h4 {
   font-family: "Rubik";
@@ -178,6 +181,9 @@ p {
   line-height: 30px;
   font-size: 26px;
   color: #313131;
+}
+.block.hero-4 h1 {
+  margin-bottom: 20px;
 }
 
 i.fab.fa-github,

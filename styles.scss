@@ -210,13 +210,16 @@ p {
 }
 
 .block.hero-4 {
-  
+
   .row {
     display: flex;
     flex-direction: row;
 
     .col {
+      display: flex;
       width: 600px;
+      gap: 13px;
+      flex-direction: column;
     }
   }
 
@@ -226,6 +229,10 @@ p {
     line-height: 30px;
     font-size: 26px;
     color: rgb(49, 49, 49);
+  }
+
+  h1 {
+    margin-bottom: 20px;
   }
 }
 
