@@ -135,8 +135,8 @@ p {
 }
 .block.hero-2 .arrow {
   margin-top: 10px;
-  width: 136px;
-  margin-left: 35px;
+  width: 122px;
+  margin-left: 38px;
 }
 .block.hero-2 .cta {
   text-decoration: none;
@@ -184,6 +184,9 @@ p {
 }
 .block.hero-4 h1 {
   margin-bottom: 20px;
+}
+.block.hero-4 p {
+  font-size: 18px;
 }
 
 i.fab.fa-github,
