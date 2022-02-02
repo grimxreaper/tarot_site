@@ -219,6 +219,14 @@ p {
       width: 600px;
     }
   }
+
+  h4 {
+    font-family: $body;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 26px;
+    color: rgb(49, 49, 49);
+  }
 }
 
 i.fab.fa-github,

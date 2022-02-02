@@ -172,6 +172,13 @@ p {
 .block.hero-4 .row .col {
   width: 600px;
 }
+.block.hero-4 h4 {
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 26px;
+  color: #313131;
+}
 
 i.fab.fa-github,
 i.fab.fa-twitter {
