@@ -83,6 +83,7 @@ p {
 
 .block.hero-1 {
   display: flex;
+  margin-bottom: 200px;
 
   .row {
     display: flex;
@@ -97,8 +98,10 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 400px;
+    align-items: center;
 
     &:nth-child(2) {
+     
 
     }
   }
@@ -113,6 +116,7 @@ p {
   }
   .hero_logo {
     max-width: 311px;
+    z-index: 8;
   }
 
   .heading {
