@@ -49,6 +49,7 @@ p {
       justify-content: flex-end;
       margin-top: 20px;
       margin-left: 63px;
+      z-index: 9;
     }
   }
 
@@ -86,7 +87,6 @@ p {
   .row {
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
     position: relative;
     gap: 133px;
     height: 450px;
@@ -99,13 +99,18 @@ p {
     width: 400px;
 
     &:nth-child(2) {
-      width: 705px;
-      height: 810px;
 
-      background: linear-gradient(143.2deg, #BDCEE9 -12.65%, #D6DDEE 11.97%, #E7E7EA 48.2%, #F2DDE3 78.82%, #CABCD6 116.35%);
     }
   }
 
+  .gradient_rectangle{
+    width: 100%;
+    max-width: 705px;
+    max-height: 810px;
+    position: absolute;
+    z-index: 0;
+
+  }
   .hero_logo {
     max-width: 311px;
   }
