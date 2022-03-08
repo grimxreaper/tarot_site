@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+.page_wrapper {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Marcellus", serif;
   font-size: 40px;
@@ -19,9 +25,10 @@ p {
 }
 
 .wrapper {
-  margin: auto;
   max-width: 1080px;
-  padding: 35px 31px;
+  padding: 35px 0px;
+  margin: auto;
+  width: 100%;
 }
 
 .logo_title {
@@ -91,6 +98,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 10px;
 }
 .block.hero-1 .col:nth-child(2) {
   align-items: center;
