@@ -10,6 +10,7 @@ $body: "Rubik";
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
+  padding: 0px 30px;
 }
 
 h1 {
@@ -44,18 +45,19 @@ p {
   .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .col {
     display: flex;
-    width: 400px;
+    // width: 400px;
 
     &:nth-child(2) {
-      width: 592px;
+      // width: 592px;
       display: flex;
       justify-content: flex-end;
       margin-top: 20px;
-      margin-left: 63px;
+      // margin-left: 63px;
       z-index: 9;
     }
   }
@@ -113,10 +115,11 @@ p {
 
   .gradient_rectangle{
     width: 100%;
-    max-width: 705px;
+    max-width: 586px;
     max-height: 810px;
     position: absolute;
     z-index: 0;
+    bottom: -57px;
 
   }
   .hero_logo {

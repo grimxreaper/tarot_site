@@ -9,6 +9,7 @@
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
+  padding: 0px 30px;
 }
 
 h1 {
@@ -43,17 +44,15 @@ p {
 .nav .row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .nav .col {
   display: flex;
-  width: 400px;
 }
 .nav .col:nth-child(2) {
-  width: 592px;
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  margin-left: 63px;
   z-index: 9;
 }
 .nav ul {
@@ -105,10 +104,11 @@ p {
 }
 .block.hero-1 .gradient_rectangle {
   width: 100%;
-  max-width: 705px;
+  max-width: 586px;
   max-height: 810px;
   position: absolute;
   z-index: 0;
+  bottom: -57px;
 }
 .block.hero-1 .hero_logo {
   max-width: 311px;
