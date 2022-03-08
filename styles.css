@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #fff;
 }
 
 h1 {
@@ -94,9 +93,13 @@ p {
   width: 400px;
 }
 .block.hero-1 .col:nth-child(2) {
-  width: 500px;
-  background-image: linear-gradient(250deg, #f7d7d4 0%, #e0e5f0 16%, #bcd4eb 41%, #bfcaf2 65%, #dfcaf2 85%, #ceb9df 100%);
-  border-radius: 5%;
+  width: 705px;
+  height: 810px;
+  background: linear-gradient(143.2deg, #BDCEE9 -12.65%, #D6DDEE 11.97%, #E7E7EA 48.2%, #F2DDE3 78.82%, #CABCD6 116.35%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.block.hero-1 .hero_logo {
+  max-width: 311px;
 }
 .block.hero-1 .heading {
   font-family: "Marcellus", serif;
