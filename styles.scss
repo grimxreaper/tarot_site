@@ -6,12 +6,12 @@
 
 $body: "Rubik";
 
-.page_wrapper {
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0px 30px;
-}
+// .page_wrapper {
+//   width: 100%;
+//   max-width: 1080px;
+//   margin: 0 auto;
+//   padding: 0px 30px;
+// }
 
 h1 {
   font-family: "Marcellus", serif;
@@ -27,20 +27,27 @@ p {
 }
 
 .wrapper {
-  max-width: 1080px;
-  padding: 35px 0px;
-  margin: auto;
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
   width: 100%;
 }
 
 .logo_title {
   width: 280px;
+  height: auto;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding-top: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
 
   .row {
     display: flex;
@@ -56,7 +63,6 @@ p {
       // width: 592px;
       display: flex;
       justify-content: flex-end;
-      margin-top: 20px;
       // margin-left: 63px;
       z-index: 9;
     }
@@ -65,12 +71,17 @@ p {
   ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   li {
     text-decoration: none;
     list-style: none;
-    padding-right: 36px;
+    margin-right: 36px;
     font-family: $body;
     font-size: 22px;
     text-transform: lowercase;
@@ -93,23 +104,48 @@ p {
 .block.hero-1 {
   display: flex;
   margin-bottom: 200px;
+  width: 100%;
+
+  .wrapper {
+    padding-right: 0;
+
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+    }
+  }
 
   .row {
     display: flex;
     flex-direction: row;
     position: relative;
-    gap: 133px;
-    height: 450px;
+    height: auto;
+    width: 100%;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
 
   .col {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 10px;
+    width: 50%;
+
+    &:nth-child(1){
+      padding-right: 30px;
+    }
+
 
     &:nth-child(2) {
       align-items: center;
+      background: linear-gradient(143.2deg, #BDCEE9 -12.65%, #D6DDEE 11.97%, #E7E7EA 48.2%, #F2DDE3 78.82%, #CABCD6 116.35%);
+      padding: 120px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
     }
   }
 
@@ -130,7 +166,7 @@ p {
   .heading {
     font-family: "Marcellus", serif;
     font-size: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   .arrow {
