@@ -93,6 +93,9 @@ p {
   justify-content: center;
   width: 400px;
 }
+.block.hero-1 .col:nth-child(2) {
+  align-items: center;
+}
 .block.hero-1 .gradient_rectangle {
   width: 100%;
   max-width: 705px;

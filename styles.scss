@@ -98,11 +98,10 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 400px;
-    align-items: center;
 
     &:nth-child(2) {
      
-
+      align-items: center;
     }
   }
 
