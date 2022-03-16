@@ -74,19 +74,6 @@ p {
   letter-spacing: 0.8px;
 }
 
-.sparkle_one {
-  width: 20px;
-  position: absolute;
-  top: 45px;
-  left: 40px;
-}
-
-.sparkle_two {
-  width: 33px;
-  position: absolute;
-  top: 0px;
-}
-
 .block.hero-1 {
   display: flex;
   margin-bottom: 200px;
@@ -126,6 +113,7 @@ p {
   align-items: center;
   background: linear-gradient(143.2deg, #BDCEE9 -12.65%, #D6DDEE 11.97%, #E7E7EA 48.2%, #F2DDE3 78.82%, #CABCD6 116.35%);
   padding: 120px 0;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
   .block.hero-1 .col {
@@ -155,6 +143,46 @@ p {
 }
 .block.hero-1 p {
   background-image: linear-gradient(250deg, #f7d7d4 0%, #e0e5f0 16%, #bcd4eb 41%, #bfcaf2 65%, #dfcaf2 85%, #ceb9df 100%);
+}
+.block.hero-1 .sparkle_one {
+  width: 22px;
+  left: 142px;
+  top: 146px;
+  position: absolute;
+}
+@media screen and (max-width: 1196px) {
+  .block.hero-1 .sparkle_one {
+    width: 22px;
+    left: 88px;
+    top: 146px;
+  }
+}
+@media screen and (max-width: 952px) {
+  .block.hero-1 .sparkle_one {
+    width: 22px;
+    left: 63px;
+    top: 134px;
+  }
+}
+.block.hero-1 .sparkle_two {
+  width: 40px;
+  position: absolute;
+  left: 109px;
+  top: 116px;
+}
+@media screen and (max-width: 1196px) {
+  .block.hero-1 .sparkle_two {
+    width: 40px;
+    left: 53px;
+    top: 116px;
+  }
+}
+@media screen and (max-width: 952px) {
+  .block.hero-1 .sparkle_two {
+    width: 40px;
+    left: 30px;
+    top: 102px;
+  }
 }
 
 .block.hero-2 {

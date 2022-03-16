@@ -89,18 +89,6 @@ p {
   }
 }
 
-.sparkle_one {
-  width: 20px;
-  position: absolute;
-  top: 45px;
-  left: 40px;
-}
-.sparkle_two {
-  width: 33px;
-  position: absolute;
-  top: 0px;
-}
-
 .block.hero-1 {
   display: flex;
   margin-bottom: 200px;
@@ -142,6 +130,7 @@ p {
       align-items: center;
       background: linear-gradient(143.2deg, #BDCEE9 -12.65%, #D6DDEE 11.97%, #E7E7EA 48.2%, #F2DDE3 78.82%, #CABCD6 116.35%);
       padding: 120px 0;
+      position: relative;
     }
 
     @media screen and (max-width: 768px) {
@@ -184,6 +173,41 @@ p {
       hsl(272deg 61% 87%) 85%,
       hsl(273deg 37% 80%) 100%
     );
+  }
+
+  .sparkle_one {
+    width: 22px;
+    left: 142px;
+    top: 146px;
+    position: absolute;
+
+    @media screen and (max-width: 1196px) {
+      width: 22px;
+      left: 88px;
+      top: 146px;
+  }
+  @media screen and (max-width: 952px) {
+    width: 22px;
+    left: 63px;
+    top: 134px;
+}
+  }
+  .sparkle_two {
+    width: 40px;
+    position: absolute;
+    left: 109px;
+    top: 116px;
+
+    @media screen and (max-width: 1196px) {
+      width: 40px;
+      left: 53px;
+      top: 116px;
+  }
+  @media screen and (max-width: 952px) {
+    width: 40px;
+    left: 30px;
+    top: 102px;
+}
   }
 }
 
