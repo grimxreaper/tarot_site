@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Black Mango Bold Woff";
+  src: url("fonts/blackmango-bold-webfont.woff2") format("woff2"), url("fonts/blackmango-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Black Mango Bold";
+  src: url("fonts/BlackMango-Bold.ttf");
+  font-weight: normal;
+  font-style: bold;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +18,7 @@
 }
 
 h1 {
-  font-family: "Marcellus", serif;
+  font-family: "Black Mango Bold";
   font-size: 40px;
 }
 
@@ -133,7 +145,7 @@ p {
   z-index: 8;
 }
 .block.hero-1 .heading {
-  font-family: "Marcellus", serif;
+  font-family: "Black Mango Bold Woff";
   font-size: 60px;
   margin-bottom: 20px;
 }
@@ -147,21 +159,21 @@ p {
 .block.hero-1 .sparkle_one {
   width: 22px;
   left: 142px;
-  top: 146px;
+  top: 136px;
   position: absolute;
 }
 @media screen and (max-width: 1196px) {
   .block.hero-1 .sparkle_one {
     width: 22px;
     left: 88px;
-    top: 146px;
+    top: 136px;
   }
 }
 @media screen and (max-width: 952px) {
   .block.hero-1 .sparkle_one {
     width: 22px;
     left: 63px;
-    top: 134px;
+    top: 136px;
   }
 }
 .block.hero-1 .sparkle_two {

@@ -1,3 +1,20 @@
+
+@font-face {
+  font-family: 'Black Mango Bold Woff';
+  src: url('fonts/blackmango-bold-webfont.woff2') format('woff2'),
+       url('fonts/blackmango-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: bold;
+
+}
+@font-face {
+  font-family: 'Black Mango Bold';
+  src: url('fonts/BlackMango-Bold.ttf');
+  font-weight: normal;
+  font-style: bold;
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +31,11 @@ $body: "Rubik";
 // }
 
 h1 {
-  font-family: "Marcellus", serif;
+  // font-family: "Marcellus", serif;
+  // font-family: 'black_mangobold';
+  // src: url('blackmango-bold-webfont.woff2') format('woff2'),
+  //      url('blackmango-bold-webfont.woff') format('woff');
+  font-family: 'Black Mango Bold';
   font-size: 40px;
 }
 
@@ -153,7 +174,9 @@ p {
   }
 
   .heading {
-    font-family: "Marcellus", serif;
+    // font-family: "Marcellus", serif;
+    // font-family: 'Black Mango Bold';
+    font-family:'Black Mango Bold Woff';
     font-size: 60px;
     margin-bottom: 20px;
   }
@@ -178,18 +201,18 @@ p {
   .sparkle_one {
     width: 22px;
     left: 142px;
-    top: 146px;
+    top: 136px;
     position: absolute;
 
     @media screen and (max-width: 1196px) {
       width: 22px;
       left: 88px;
-      top: 146px;
+      top: 136px;
   }
   @media screen and (max-width: 952px) {
     width: 22px;
     left: 63px;
-    top: 134px;
+    top: 136px;
 }
   }
   .sparkle_two {
