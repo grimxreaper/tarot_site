@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Black Mango Light";
   src: url("fonts/blackmango-light-webfont.woff") format("woff"),
-  url("fonts/blackmango-light-webfont.woff2") format("woff2");
+    url("fonts/blackmango-light-webfont.woff2") format("woff2");
   font-weight: normal;
 }
 // @font-face {
@@ -32,9 +32,9 @@
   margin-right: 30px;
 }
 
-@mixin heading-style-1(){
+@mixin heading-style-1() {
   color: #121127;
-  font-family: 'Black Mango Bold';
+  font-family: "Black Mango Bold";
 }
 
 * {
@@ -157,6 +157,16 @@ p {
     }
   }
 
+  .sparkle_container {
+    position: absolute;
+    top: 232px;
+  }
+
+  .hollow_sparkle {
+    width: 30px;
+    margin-right: 10px;
+  }
+
   .col {
     display: flex;
     flex-direction: column;
@@ -169,14 +179,7 @@ p {
 
     &:nth-child(2) {
       align-items: center;
-      background: linear-gradient(
-        34deg,
-        #BDCEE9 0%,
-        #D6DDEE 19.09%,
-        #E7E7EA  47.17%,
-        #F2DDE3  70.9%,
-        #CABCD6 100%
-      );
+      background: linear-gradient(34deg, #bdcee9 0%, #d6ddee 19.09%, #e7e7ea 47.17%, #f2dde3 70.9%, #cabcd6 100%);
       padding: 150px 0;
       position: relative;
     }

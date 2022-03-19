@@ -110,6 +110,14 @@ p {
     align-items: center;
   }
 }
+.block.hero-1 .sparkle_container {
+  position: absolute;
+  top: 232px;
+}
+.block.hero-1 .hollow_sparkle {
+  width: 30px;
+  margin-right: 10px;
+}
 .block.hero-1 .col {
   display: flex;
   flex-direction: column;
@@ -121,7 +129,7 @@ p {
 }
 .block.hero-1 .col:nth-child(2) {
   align-items: center;
-  background: linear-gradient(34deg, #BDCEE9 0%, #D6DDEE 19.09%, #E7E7EA 47.17%, #F2DDE3 70.9%, #CABCD6 100%);
+  background: linear-gradient(34deg, #bdcee9 0%, #d6ddee 19.09%, #e7e7ea 47.17%, #f2dde3 70.9%, #cabcd6 100%);
   padding: 150px 0;
   position: relative;
 }
