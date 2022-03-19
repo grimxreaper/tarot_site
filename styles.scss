@@ -161,20 +161,20 @@ p {
     position: absolute;
     top: 256px;
 
-    @media only screen and (max-width: 1250px) {
-      top: 203px;
-    }
-    @media only screen and (max-width: 1132px) {
-      top: 170px;
-    }
-    @media only screen and (max-width: 999px) {
-      top: 203px;
-    }
-    @media only screen and (max-width: 940px) {
+    @media only screen and (max-width: 1280px) {
       top: 208px;
     }
+    @media only screen and (max-width: 1132px) {
+      top: 221px;
+    }
+    @media only screen and (max-width: 999px) {
+      top: 214px;
+    }
     @media only screen and (max-width: 940px) {
-      top: 190px;
+      top: 201px;
+    }
+    @media only screen and (max-width: 940px) {
+      top: 200px;
     }
   }
 
@@ -191,6 +191,7 @@ p {
 
     &:nth-child(1) {
       padding-right: 30px;
+      padding-left: 14px;
     }
 
     &:nth-child(2) {
@@ -223,6 +224,7 @@ p {
     font-size: 60px;
     margin-bottom: 20px;
     margin-top: 159px;
+    line-height: 77px;
 
     @media only screen and (max-width: 1133px) {
       margin-top: 254px;

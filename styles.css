@@ -114,29 +114,29 @@ p {
   position: absolute;
   top: 256px;
 }
-@media only screen and (max-width: 1250px) {
-  .block.hero-1 .sparkle_container {
-    top: 203px;
-  }
-}
-@media only screen and (max-width: 1132px) {
-  .block.hero-1 .sparkle_container {
-    top: 170px;
-  }
-}
-@media only screen and (max-width: 999px) {
-  .block.hero-1 .sparkle_container {
-    top: 203px;
-  }
-}
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1280px) {
   .block.hero-1 .sparkle_container {
     top: 208px;
   }
 }
+@media only screen and (max-width: 1132px) {
+  .block.hero-1 .sparkle_container {
+    top: 221px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .block.hero-1 .sparkle_container {
+    top: 214px;
+  }
+}
 @media only screen and (max-width: 940px) {
   .block.hero-1 .sparkle_container {
-    top: 190px;
+    top: 201px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .block.hero-1 .sparkle_container {
+    top: 200px;
   }
 }
 .block.hero-1 .hollow_sparkle {
@@ -151,6 +151,7 @@ p {
 }
 .block.hero-1 .col:nth-child(1) {
   padding-right: 30px;
+  padding-left: 14px;
 }
 .block.hero-1 .col:nth-child(2) {
   align-items: center;
@@ -181,6 +182,7 @@ p {
   font-size: 60px;
   margin-bottom: 20px;
   margin-top: 159px;
+  line-height: 77px;
 }
 @media only screen and (max-width: 1133px) {
   .block.hero-1 .heading {
