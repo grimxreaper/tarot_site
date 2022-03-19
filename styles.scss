@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: bold;
 }
+
+@font-face {
+  font-family: "Black Mango Light";
+  src: url("fonts/blackmango-light-webfont.woff") format("woff"),
+  url("fonts/blackmango-light-webfont.woff2") format("woff2");
+  font-weight: normal;
+}
 // @font-face {
 //   font-family: "Black Mango Bold";
 //   src: url("fonts/BlackMango-Bold.ttf");
@@ -16,7 +23,7 @@
   width: 100%;
   max-width: 176px;
   text-decoration: none;
-  background-color: black;
+  background-color: #121127;
   font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 16px;
@@ -25,13 +32,18 @@
   margin-right: 30px;
 }
 
+@mixin heading-style-1(){
+  color: #121127;
+  font-family: 'Black Mango Bold';
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-$body: "Rubik";
+$body: "Quicksand";
 
 // .page_wrapper {
 //   width: 100%;
@@ -113,9 +125,8 @@ p {
     text-decoration: none;
     list-style: none;
     margin-right: 36px;
-    font-family: $body;
-    font-size: 22px;
-    text-transform: lowercase;
+    font-family: "Black Mango Light";
+    font-size: 20px;
     letter-spacing: 0.8px;
   }
 }
@@ -159,14 +170,14 @@ p {
     &:nth-child(2) {
       align-items: center;
       background: linear-gradient(
-        143.2deg,
-        #bdcee9 -12.65%,
-        #d6ddee 11.97%,
-        #e7e7ea 48.2%,
-        #f2dde3 78.82%,
-        #cabcd6 116.35%
+        34deg,
+        #BDCEE9 0%,
+        #D6DDEE 19.09%,
+        #E7E7EA  47.17%,
+        #F2DDE3  70.9%,
+        #CABCD6 100%
       );
-      padding: 120px 0;
+      padding: 150px 0;
       position: relative;
     }
 
@@ -189,7 +200,7 @@ p {
   }
 
   .heading {
-    font-family: "Black Mango Bold";
+    @include heading-style-1;
     font-size: 60px;
     margin-bottom: 20px;
     margin-top: 159px;
@@ -215,17 +226,16 @@ p {
 
   .btn_container {
     width: 100%;
-    max-width: 400px;
   }
 
   .btn_style_1 {
     @include btn-style-1;
   }
   .btn_style_2 {
-    width: 176px;
-    height: 50px;
-    text-decoration: none;
-    font-family: "Quicksand", sans-serif;
+    @include btn-style-1;
+    background-color: white;
+    border: 1px solid #121127;
+    color: black;
   }
 
   .sparkle_one {

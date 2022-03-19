@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: bold;
 }
+@font-face {
+  font-family: "Black Mango Light";
+  src: url("fonts/blackmango-light-webfont.woff") format("woff"), url("fonts/blackmango-light-webfont.woff2") format("woff2");
+  font-weight: normal;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +22,7 @@ h1 {
 }
 
 p {
-  font-family: "Rubik";
+  font-family: "Quicksand";
   font-weight: 400;
   line-height: 30px;
   font-size: 20px;
@@ -74,9 +79,8 @@ p {
   text-decoration: none;
   list-style: none;
   margin-right: 36px;
-  font-family: "Rubik";
-  font-size: 22px;
-  text-transform: lowercase;
+  font-family: "Black Mango Light";
+  font-size: 20px;
   letter-spacing: 0.8px;
 }
 
@@ -117,8 +121,8 @@ p {
 }
 .block.hero-1 .col:nth-child(2) {
   align-items: center;
-  background: linear-gradient(143.2deg, #bdcee9 -12.65%, #d6ddee 11.97%, #e7e7ea 48.2%, #f2dde3 78.82%, #cabcd6 116.35%);
-  padding: 120px 0;
+  background: linear-gradient(34deg, #BDCEE9 0%, #D6DDEE 19.09%, #E7E7EA 47.17%, #F2DDE3 70.9%, #CABCD6 100%);
+  padding: 150px 0;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -139,6 +143,7 @@ p {
   z-index: 8;
 }
 .block.hero-1 .heading {
+  color: #121127;
   font-family: "Black Mango Bold";
   font-size: 60px;
   margin-bottom: 20px;
@@ -153,13 +158,12 @@ p {
 }
 .block.hero-1 .btn_container {
   width: 100%;
-  max-width: 400px;
 }
 .block.hero-1 .btn_style_1 {
   width: 100%;
   max-width: 176px;
   text-decoration: none;
-  background-color: black;
+  background-color: #121127;
   font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 16px;
@@ -168,10 +172,19 @@ p {
   margin-right: 30px;
 }
 .block.hero-1 .btn_style_2 {
-  width: 176px;
-  height: 50px;
+  width: 100%;
+  max-width: 176px;
   text-decoration: none;
+  background-color: #121127;
   font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 16px;
+  border-radius: 200px;
+  padding: 20px 30px;
+  margin-right: 30px;
+  background-color: white;
+  border: 1px solid #121127;
+  color: black;
 }
 .block.hero-1 .sparkle_one {
   width: 22px;
@@ -243,7 +256,7 @@ p {
 }
 .block.hero-2 .cta {
   text-decoration: none;
-  font-family: "Rubik";
+  font-family: "Quicksand";
   font-weight: 400;
   line-height: 40px;
   color: #494949;
@@ -293,7 +306,7 @@ p {
   width: 300px;
 }
 .block.hero-4 h4 {
-  font-family: "Rubik";
+  font-family: "Quicksand";
   font-weight: 400;
   line-height: 30px;
   font-size: 26px;
