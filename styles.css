@@ -83,6 +83,38 @@ p {
   font-size: 20px;
   letter-spacing: 0.8px;
 }
+.nav .menu_button {
+  position: absolute;
+  top: 29px;
+  right: 0;
+  width: 59px;
+  height: 40px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  display: flex;
+  margin-top: 3px;
+  margin-right: 18px;
+}
+@media (max-width: 768px) {
+  .nav .menu_button {
+    display: block;
+  }
+  .nav .menu_button .hamburger {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background-color: #b57ac1;
+    display: flex;
+    flex: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    border-radius: 5px;
+  }
+}
 
 .block.hero-1 {
   display: flex;
