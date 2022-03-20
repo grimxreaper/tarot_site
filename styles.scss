@@ -232,6 +232,10 @@ p {
       background: linear-gradient(34deg, #bdcee9 0%, #d6ddee 19.09%, #e7e7ea 47.17%, #f2dde3 70.9%, #cabcd6 100%);
       padding: 150px 0;
       position: relative;
+
+      @media (max-width: 768px) {
+        padding: 54px 0;
+      }
     }
 
     @media screen and (max-width: 768px) {
@@ -250,6 +254,10 @@ p {
   .hero_logo {
     max-width: 311px;
     z-index: 8;
+
+    @media (max-width: 768px) {
+      max-width: 156px;
+    }
   }
 
   .heading {
