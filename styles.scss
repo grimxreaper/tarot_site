@@ -417,6 +417,7 @@ p {
       }
 
       &:nth-child(2) {
+        position: relative;
 
         h1 {
           @include heading-style-1;
@@ -424,7 +425,7 @@ p {
           font-size: 44px;
           color: #000;
         }
-        p {
+        .bio {
           font-family: $body;
           font-size: 22px;
           line-height: 30px;
@@ -450,12 +451,26 @@ p {
       }
     }
   }
-  h1 {
-    margin-bottom: 30px;
+
+  .hollow_sparkle{
+    width: 100%;
+    max-width: 30px;
+
   }
   .portrait {
     width: 100%;
     max-width: 413px;
+  }
+  .sparkle_container_2 {
+    display: flex;
+    position: absolute;
+    top: 415px;
+    left: 293px;
+  }
+  .sparkle_group_1 {
+    width: 100%;
+    max-width: 50px;
+
   }
 }
 

@@ -503,6 +503,10 @@ p {
   max-width: 530px;
 }
 
+.block.hero-2 .row .col:nth-child(2) {
+  position: relative;
+}
+
 .block.hero-2 .row .col:nth-child(2) h1 {
   color: #121127;
   font-family: "Black Mango Bold";
@@ -511,7 +515,7 @@ p {
   color: #000;
 }
 
-.block.hero-2 .row .col:nth-child(2) p {
+.block.hero-2 .row .col:nth-child(2) .bio {
   font-family: "Quicksand";
   font-size: 22px;
   line-height: 30px;
@@ -551,13 +555,28 @@ p {
   max-width: 236px;
 }
 
-.block.hero-2 h1 {
-  margin-bottom: 30px;
+.block.hero-2 .hollow_sparkle {
+  width: 100%;
+  max-width: 30px;
 }
 
 .block.hero-2 .portrait {
   width: 100%;
   max-width: 413px;
+}
+
+.block.hero-2 .sparkle_container_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 415px;
+  left: 293px;
+}
+
+.block.hero-2 .sparkle_group_1 {
+  width: 100%;
+  max-width: 50px;
 }
 
 .block.hero-4 {
