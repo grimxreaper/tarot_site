@@ -392,65 +392,83 @@ p {
 
 }
 
-.block.hero-2 {
-  display: flex;
+// .block.hero-2 {
+//   display: flex;
 
+//   .row {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     gap: 80px;
+
+//     .col {
+//       display: flex;
+//       flex-direction: column;
+
+//       &:nth-child(2) {
+//         margin-top: 60px;
+//       }
+
+//       &:nth-child(3) {
+//         margin-top: 60px;
+//       }
+//     }
+//   }
+
+//   .creature {
+//     width: 225px;
+//   }
+
+//   .arrow {
+//     margin-top: 10px;
+//     width: 122px;
+//     margin-left: 38px;
+//   }
+
+//   .cta {
+//     text-decoration: none;
+//     font-family: $body;
+//     font-weight: 400;
+//     line-height: 40px;
+//     color: rgb(73, 73, 73);
+//     font-size: 40px;
+//     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>")
+//         16 0,
+//       auto;
+//   }
+
+//   .curious.question {
+//     font-size: 24px;
+//   }
+// }
+
+.block.hero-2 {
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 80px;
 
     .col {
-      display: flex;
-      flex-direction: column;
 
-      &:nth-child(2) {
-        margin-top: 60px;
+      &:nth-child(1){
+        width: 100%;
+        margin-top: 16px;
       }
 
-      &:nth-child(3) {
-        margin-top: 60px;
+      &:nth-child(2){
+
+        h1 {
+          @include heading-style-1;
+          font-size: 44px;
+          color: #000;
+        }
+        p {
+          font-family: $body;
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 400;
+        }
+
       }
-    }
-  }
-
-  .creature {
-    width: 225px;
-  }
-
-  .arrow {
-    margin-top: 10px;
-    width: 122px;
-    margin-left: 38px;
-  }
-
-  .cta {
-    text-decoration: none;
-    font-family: $body;
-    font-weight: 400;
-    line-height: 40px;
-    color: rgb(73, 73, 73);
-    font-size: 40px;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>")
-        16 0,
-      auto;
-  }
-
-  .curious.question {
-    font-size: 24px;
-  }
-}
-
-.block.hero-2 {
-  .row {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-
-    .col_left {
-      width: 100%;
-      margin-top: 16px;
     }
   }
   h1 {

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Black Mango Bold";
   src: url("fonts/blackmango-bold-webfont.woff2") format("woff2"), url("fonts/blackmango-bold-webfont.woff") format("woff");
@@ -489,12 +488,6 @@ p {
   }
 }
 
-.block.hero-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .block.hero-2 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -503,68 +496,25 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 80px;
 }
 
-.block.hero-2 .row .col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.block.hero-2 .row .col:nth-child(2) {
-  margin-top: 60px;
-}
-
-.block.hero-2 .row .col:nth-child(3) {
-  margin-top: 60px;
-}
-
-.block.hero-2 .creature {
-  width: 225px;
-}
-
-.block.hero-2 .arrow {
-  margin-top: 10px;
-  width: 122px;
-  margin-left: 38px;
-}
-
-.block.hero-2 .cta {
-  text-decoration: none;
-  font-family: "Quicksand";
-  font-weight: 400;
-  line-height: 40px;
-  color: #494949;
-  font-size: 40px;
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>") 16 0, auto;
-}
-
-.block.hero-2 .curious.question {
-  font-size: 24px;
-}
-
-.block.hero-2 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 100px;
-}
-
-.block.hero-2 .row .col_left {
+.block.hero-2 .row .col:nth-child(1) {
   width: 100%;
   margin-top: 16px;
+}
+
+.block.hero-2 .row .col:nth-child(2) h1 {
+  color: #121127;
+  font-family: "Black Mango Bold";
+  font-size: 44px;
+  color: #000;
+}
+
+.block.hero-2 .row .col:nth-child(2) p {
+  font-family: "Quicksand";
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .block.hero-2 h1 {
