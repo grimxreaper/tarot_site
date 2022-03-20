@@ -237,7 +237,14 @@ p {
 
     &:nth-child(2) {
       align-items: center;
-      background: linear-gradient(34deg, #bdcee9 0%, #d6ddee 19.09%, #e7e7ea 47.17%, #f2dde3 70.9%, #cabcd6 100%);
+      background: linear-gradient(
+        34deg,
+        #bdcee9 0%,
+        #d6ddee 19.09%,
+        #e7e7ea 47.17%,
+        #f2dde3 70.9%,
+        #cabcd6 100%
+      );
       padding: 150px 0;
       position: relative;
 
@@ -308,7 +315,14 @@ p {
     //   rgb(245, 151, 240) 91%,
     //   rgb(117, 244, 248) 100%
     // );
-    background-image: linear-gradient(144deg, #b5c9f3 0%, #9dade4 35.94%, #f1c7df 63.54%, #f1afcd 79.17%, #dca0d2 100%);
+    background-image: linear-gradient(
+      144deg,
+      #b5c9f3 0%,
+      #9dade4 35.94%,
+      #f1c7df 63.54%,
+      #f1afcd 79.17%,
+      #dca0d2 100%
+    );
 
     @media only screen and (max-width: 1133px) {
       max-width: 440px;
@@ -389,58 +403,7 @@ p {
       display: none;
     }
   }
-
 }
-
-// .block.hero-2 {
-//   display: flex;
-
-//   .row {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     gap: 80px;
-
-//     .col {
-//       display: flex;
-//       flex-direction: column;
-
-//       &:nth-child(2) {
-//         margin-top: 60px;
-//       }
-
-//       &:nth-child(3) {
-//         margin-top: 60px;
-//       }
-//     }
-//   }
-
-//   .creature {
-//     width: 225px;
-//   }
-
-//   .arrow {
-//     margin-top: 10px;
-//     width: 122px;
-//     margin-left: 38px;
-//   }
-
-//   .cta {
-//     text-decoration: none;
-//     font-family: $body;
-//     font-weight: 400;
-//     line-height: 40px;
-//     color: rgb(73, 73, 73);
-//     font-size: 40px;
-//     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>💕</text></svg>")
-//         16 0,
-//       auto;
-//   }
-
-//   .curious.question {
-//     font-size: 24px;
-//   }
-// }
 
 .block.hero-2 {
   .row {
@@ -448,16 +411,16 @@ p {
     flex-direction: row;
 
     .col {
-
-      &:nth-child(1){
+      &:nth-child(1) {
         width: 100%;
-        margin-top: 16px;
+        max-width: 530px;
       }
 
-      &:nth-child(2){
+      &:nth-child(2) {
 
         h1 {
           @include heading-style-1;
+          margin-bottom: 10px;
           font-size: 44px;
           color: #000;
         }
@@ -466,8 +429,24 @@ p {
           font-size: 22px;
           line-height: 30px;
           font-weight: 400;
+          width: 100%;
+          max-width: 584px;
         }
 
+        .btn_container {
+          width: 100%;
+          margin-top: 33px;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          text-align: center;
+        }
+
+        .btn_style_1 {
+          @include btn-style-1;
+          max-width: 236px;
+        }
       }
     }
   }

@@ -500,12 +500,13 @@ p {
 
 .block.hero-2 .row .col:nth-child(1) {
   width: 100%;
-  margin-top: 16px;
+  max-width: 530px;
 }
 
 .block.hero-2 .row .col:nth-child(2) h1 {
   color: #121127;
   font-family: "Black Mango Bold";
+  margin-bottom: 10px;
   font-size: 44px;
   color: #000;
 }
@@ -515,6 +516,39 @@ p {
   font-size: 22px;
   line-height: 30px;
   font-weight: 400;
+  width: 100%;
+  max-width: 584px;
+}
+
+.block.hero-2 .row .col:nth-child(2) .btn_container {
+  width: 100%;
+  margin-top: 33px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+}
+
+.block.hero-2 .row .col:nth-child(2) .btn_style_1 {
+  width: 100%;
+  max-width: 176px;
+  text-decoration: none;
+  background-color: #121127;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 16px;
+  border-radius: 200px;
+  padding: 20px 30px;
+  margin-right: 30px;
+  max-width: 236px;
 }
 
 .block.hero-2 h1 {
