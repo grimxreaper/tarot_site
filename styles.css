@@ -283,7 +283,7 @@ p {
 
 @media (max-width: 768px) {
   .block.hero-1 .col:nth-child(1) {
-    padding-left: 40px;
+    padding-left: 23px;
   }
 }
 
@@ -320,7 +320,6 @@ p {
 .block.hero-1 .hero_logo {
   max-width: 311px;
   z-index: 8;
-  margin-left: 20px;
 }
 
 @media (max-width: 974px) {
@@ -444,90 +443,48 @@ p {
   position: absolute;
 }
 
-.block.hero-1 .sparkle_one {
-  width: 22px;
-  left: 142px;
-  top: 136px;
-  position: absolute;
-}
-
 @media screen and (max-width: 1196px) {
-  .block.hero-1 .sparkle_one {
-    width: 22px;
-    left: 88px;
-    top: 136px;
+  .block.hero-1 .sparkle_group {
+    width: 63px;
+    left: 42px;
+    top: 130px;
   }
 }
 
 @media screen and (max-width: 952px) {
-  .block.hero-1 .sparkle_one {
-    width: 22px;
-    left: 63px;
-    top: 136px;
+  .block.hero-1 .sparkle_group {
+    width: 49px;
+    left: 40px;
+    top: 166px;
   }
 }
 
 @media (max-width: 768px) {
-  .block.hero-1 .sparkle_one {
-    width: 18px;
-    left: 183px;
-    top: 81px;
+  .block.hero-1 .sparkle_group {
+    width: 52px;
+    left: 190px;
+    top: 45px;
   }
 }
 
-@media (max-width: 570px) {
-  .block.hero-1 .sparkle_one {
-    left: 143px;
-    top: 81px;
+@media (max-width: 623px) {
+  .block.hero-1 .sparkle_group {
+    width: 52px;
+    left: 130px;
+    top: 35px;
   }
 }
 
-@media (max-width: 347px) {
-  .block.hero-1 .sparkle_one {
-    display: none;
-  }
-}
-
-.block.hero-1 .sparkle_two {
-  width: 40px;
-  position: absolute;
-  left: 109px;
-  top: 102px;
-}
-
-@media screen and (max-width: 1196px) {
-  .block.hero-1 .sparkle_two {
-    width: 40px;
-    left: 53px;
-    top: 102px;
-  }
-}
-
-@media screen and (max-width: 952px) {
-  .block.hero-1 .sparkle_two {
-    width: 40px;
-    left: 30px;
-    top: 102px;
-  }
-}
-
-@media (max-width: 768px) {
-  .block.hero-1 .sparkle_two {
-    width: 30px;
-    left: 160px;
-    top: 52px;
-  }
-}
-
-@media (max-width: 570px) {
-  .block.hero-1 .sparkle_two {
-    left: 112px;
-    top: 52px;
+@media (max-width: 516px) {
+  .block.hero-1 .sparkle_group {
+    width: 52px;
+    left: 60px;
+    top: 35px;
   }
 }
 
 @media (max-width: 347px) {
-  .block.hero-1 .sparkle_two {
+  .block.hero-1 .sparkle_group {
     display: none;
   }
 }

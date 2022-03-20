@@ -231,7 +231,7 @@ p {
       padding-left: 14px;
 
       @media (max-width: 768px) {
-        padding-left: 40px;
+        padding-left: 23px;
       }
     }
 
@@ -262,7 +262,6 @@ p {
   .hero_logo {
     max-width: 311px;
     z-index: 8;
-    margin-left: 20px;
 
     @media (max-width: 974px) {
       max-width: 250px;
@@ -356,69 +355,41 @@ p {
     left: 105px;
     top: 130px;
     position: absolute;
-  }
-
-  .sparkle_one {
-    width: 22px;
-    left: 142px;
-    top: 136px;
-    position: absolute;
 
     @media screen and (max-width: 1196px) {
-      width: 22px;
-      left: 88px;
-      top: 136px;
+      width: 63px;
+      left: 42px;
+      top: 130px;
     }
     @media screen and (max-width: 952px) {
-      width: 22px;
-      left: 63px;
-      top: 136px;
+      width: 49px;
+      left: 40px;
+      top: 166px;
     }
 
     @media (max-width: 768px) {
-      width: 18px;
-      left: 183px;
-      top: 81px;
+      width: 52px;
+      left: 190px;
+      top: 45px;
     }
 
-    @media (max-width: 570px) {
-      left: 143px;
-      top: 81px;
+    @media (max-width: 623px) {
+      width: 52px;
+      left: 130px;
+      top: 35px;
+    }
+
+    @media (max-width: 516px) {
+      width: 52px;
+      left: 60px;
+      top: 35px;
     }
 
     @media (max-width: 347px) {
       display: none;
     }
   }
-  .sparkle_two {
-    width: 40px;
-    position: absolute;
-    left: 109px;
-    top: 102px;
 
-    @media screen and (max-width: 1196px) {
-      width: 40px;
-      left: 53px;
-      top: 102px;
-    }
-    @media screen and (max-width: 952px) {
-      width: 40px;
-      left: 30px;
-      top: 102px;
-    }
-    @media (max-width: 768px) {
-      width: 30px;
-      left: 160px;
-      top: 52px;
-    }
-    @media (max-width: 570px) {
-      left: 112px;
-      top: 52px;
-    }
-    @media (max-width: 347px) {
-      display: none;
-    }
-  }
 }
 
 .block.hero-2 {
