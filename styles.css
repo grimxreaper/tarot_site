@@ -154,7 +154,7 @@ p {
     position: relative;
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -551,7 +551,7 @@ p {
   font-size: 24px;
 }
 
-.block.hero-3 .row {
+.block.hero-2 .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,17 +562,18 @@ p {
   gap: 100px;
 }
 
-.block.hero-3 .row .col_left {
-  width: 600px;
+.block.hero-2 .row .col_left {
+  width: 100%;
   margin-top: 16px;
 }
 
-.block.hero-3 h1 {
+.block.hero-2 h1 {
   margin-bottom: 30px;
 }
 
-.block.hero-3 .portrait {
-  width: 249px;
+.block.hero-2 .portrait {
+  width: 100%;
+  max-width: 413px;
 }
 
 .block.hero-4 {

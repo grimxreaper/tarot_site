@@ -152,7 +152,7 @@ p {
         position: relative;
         height: 3px;
         width: 100%;
-        background-color: #fff;
+        background-color: #ffffff;
         display: flex;
         flex: none;
         cursor: pointer;
@@ -442,14 +442,14 @@ p {
   }
 }
 
-.block.hero-3 {
+.block.hero-2 {
   .row {
     display: flex;
     flex-direction: row;
     gap: 100px;
 
     .col_left {
-      width: 600px;
+      width: 100%;
       margin-top: 16px;
     }
   }
@@ -457,7 +457,8 @@ p {
     margin-bottom: 30px;
   }
   .portrait {
-    width: 249px;
+    width: 100%;
+    max-width: 413px;
   }
 }
 
