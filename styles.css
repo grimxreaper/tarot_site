@@ -153,7 +153,7 @@ p {
     position: relative;
     height: 3px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #121127;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -435,56 +435,26 @@ p {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .block.hero-1 .btn_style_2 {
+    display: none;
+  }
+}
+
+.block.hero-1 .image_container {
+  position: relative;
+}
+
 .block.hero-1 .sparkle_group {
   width: 63px;
-  left: 105px;
-  top: 130px;
+  left: -63px;
+  top: -17px;
   position: absolute;
 }
 
-@media screen and (max-width: 1196px) {
-  .block.hero-1 .sparkle_group {
-    width: 63px;
-    left: 42px;
-    top: 130px;
-  }
-}
-
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 900px) {
   .block.hero-1 .sparkle_group {
     width: 49px;
-    left: 40px;
-    top: 166px;
-  }
-}
-
-@media (max-width: 768px) {
-  .block.hero-1 .sparkle_group {
-    width: 52px;
-    left: 190px;
-    top: 45px;
-  }
-}
-
-@media (max-width: 623px) {
-  .block.hero-1 .sparkle_group {
-    width: 52px;
-    left: 130px;
-    top: 35px;
-  }
-}
-
-@media (max-width: 516px) {
-  .block.hero-1 .sparkle_group {
-    width: 52px;
-    left: 52px;
-    top: 35px;
-  }
-}
-
-@media (max-width: 347px) {
-  .block.hero-1 .sparkle_group {
-    display: none;
   }
 }
 
@@ -525,8 +495,6 @@ p {
 }
 
 .block.hero-2 .row .col:nth-child(2) .btn_container {
-  width: 100%;
-  margin-top: 33px;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -552,6 +520,7 @@ p {
   border-radius: 200px;
   padding: 20px 30px;
   margin-right: 30px;
+  margin: 0px;
   max-width: 236px;
 }
 
@@ -565,13 +534,18 @@ p {
   max-width: 413px;
 }
 
-.block.hero-2 .sparkle_container_2 {
+.block.hero-2 .cta-container {
+  margin-top: 33px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 415px;
-  left: 293px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 32px;
 }
 
 .block.hero-2 .sparkle_group_1 {
