@@ -176,6 +176,11 @@ p {
     top: 200px;
   }
 }
+@media (max-width: 768px) {
+  .block.hero-1 .sparkle_container {
+    top: 343px;
+  }
+}
 .block.hero-1 .hollow_sparkle {
   width: 30px;
   margin-right: 10px;
@@ -198,7 +203,7 @@ p {
 }
 @media (max-width: 768px) {
   .block.hero-1 .col:nth-child(2) {
-    padding: 54px 0;
+    padding: 44px 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -218,9 +223,14 @@ p {
   max-width: 311px;
   z-index: 8;
 }
+@media (max-width: 974px) {
+  .block.hero-1 .hero_logo {
+    max-width: 250px;
+  }
+}
 @media (max-width: 768px) {
   .block.hero-1 .hero_logo {
-    max-width: 156px;
+    max-width: 161px;
   }
 }
 .block.hero-1 .heading {
@@ -238,7 +248,7 @@ p {
 }
 @media (max-width: 768px) {
   .block.hero-1 .heading {
-    margin-top: 26px;
+    margin-top: 73px;
   }
 }
 .block.hero-1 .arrow {
@@ -324,6 +334,11 @@ p {
     top: 136px;
   }
 }
+@media (max-width: 347px) {
+  .block.hero-1 .sparkle_one {
+    display: none;
+  }
+}
 .block.hero-1 .sparkle_two {
   width: 40px;
   position: absolute;
@@ -342,6 +357,11 @@ p {
     width: 40px;
     left: 30px;
     top: 102px;
+  }
+}
+@media (max-width: 347px) {
+  .block.hero-1 .sparkle_two {
+    display: none;
   }
 }
 

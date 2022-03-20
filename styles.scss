@@ -213,6 +213,9 @@ p {
     @media only screen and (max-width: 940px) {
       top: 200px;
     }
+    @media (max-width: 768px) {
+     top: 343px;
+    }
   }
 
   .hollow_sparkle {
@@ -238,7 +241,7 @@ p {
       position: relative;
 
       @media (max-width: 768px) {
-        padding: 54px 0;
+        padding: 44px 0;
       }
     }
 
@@ -259,8 +262,11 @@ p {
     max-width: 311px;
     z-index: 8;
 
+    @media (max-width: 974px) {
+      max-width: 250px;
+    }
     @media (max-width: 768px) {
-      max-width: 156px;
+      max-width: 161px;
     }
   }
 
@@ -276,7 +282,7 @@ p {
     }
 
     @media (max-width: 768px) {
-      margin-top: 26px;
+      margin-top: 73px;
     }
   }
 
@@ -368,6 +374,13 @@ p {
       left: 63px;
       top: 136px;
     }
+
+    // @media (max-width: 768px) {
+    //   width: 18px;
+    // }
+    @media (max-width: 347px) {
+      display: none;
+    }
   }
   .sparkle_two {
     width: 40px;
@@ -384,6 +397,12 @@ p {
       width: 40px;
       left: 30px;
       top: 102px;
+    }
+    // @media (max-width: 768px) {
+    //   width: 30px;
+    // }
+    @media (max-width: 347px) {
+      display: none;
     }
   }
 }
