@@ -79,6 +79,10 @@ p {
 .logo_title {
   width: 280px;
   height: auto;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .nav {
@@ -269,6 +273,10 @@ p {
 
     @media only screen and (max-width: 1133px) {
       margin-top: 254px;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 26px;
     }
   }
 

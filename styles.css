@@ -40,6 +40,11 @@ p {
   width: 280px;
   height: auto;
 }
+@media (max-width: 768px) {
+  .logo_title {
+    display: none;
+  }
+}
 
 .nav {
   display: flex;
@@ -229,6 +234,11 @@ p {
 @media only screen and (max-width: 1133px) {
   .block.hero-1 .heading {
     margin-top: 254px;
+  }
+}
+@media (max-width: 768px) {
+  .block.hero-1 .heading {
+    margin-top: 26px;
   }
 }
 .block.hero-1 .arrow {
