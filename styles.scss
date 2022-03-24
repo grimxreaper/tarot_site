@@ -61,11 +61,12 @@ h1 {
   font-size: 40px;
 }
 
-p {
+.hero_description {
   font-family: $body;
-  font-weight: 400;
-  line-height: 30px;
-  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 36px;
+  font-size: 22px;
   color: rgb(73, 73, 73);
 }
 
