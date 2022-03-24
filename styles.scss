@@ -533,10 +533,56 @@ h1 {
 }
 
 .block.services {
-  background: linear-gradient(
-    #F7F1F8 100%,
-    #F6F7FC 100%
-  );
+  display: flex;
+  background: linear-gradient(#f7f1f8 100%, #f6f7fc 100%);
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    &:nth-child(1) {
+      justify-content: center;
+      margin-top: 20px;
+
+      .sparkle_container {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .hollow_sparkle {
+        width: 100%;
+        max-width: 30px;
+      }
+
+      h1 {
+        padding: 0px 20px;
+      }
+    }
+
+    &:nth-child(2) {
+      .col {
+        .service_title {
+          @include heading-style-1;
+          size: 28px;
+          line-height: 42px;
+
+        }
+
+        &:nth-child(1) {
+        }
+        &:nth-child(2) {
+        }
+      }
+    }
+  }
+
+  .image_container {
+    img {
+      width: 100%;
+      max-width: 413px;
+    }
+  }
 }
 
 i.fab.fa-github,

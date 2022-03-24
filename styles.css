@@ -618,8 +618,59 @@ h1 {
 }
 
 .block.services {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #F7F1F8), to(#F6F7FC));
-  background: linear-gradient(#F7F1F8 100%, #F6F7FC 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #f7f1f8), to(#f6f7fc));
+  background: linear-gradient(#f7f1f8 100%, #f6f7fc 100%);
+}
+
+.block.services .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.block.services .row:nth-child(1) {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.block.services .row:nth-child(1) .sparkle_container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block.services .row:nth-child(1) .hollow_sparkle {
+  width: 100%;
+  max-width: 30px;
+}
+
+.block.services .row:nth-child(1) h1 {
+  padding: 0px 20px;
+}
+
+.block.services .row:nth-child(2) .col .service_title {
+  color: #121127;
+  font-family: "Black Mango Bold";
+  size: 28px;
+  line-height: 42px;
+}
+
+.block.services .image_container img {
+  width: 100%;
+  max-width: 413px;
 }
 
 i.fab.fa-github,
