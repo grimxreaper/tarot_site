@@ -561,8 +561,10 @@ h1 {
     }
 
     &:nth-child(2) {
-      justify-content: space-between;
+      justify-content: space-around;
       .col {
+        display: flex;
+        flex-direction: column;
         .service_title {
           @include heading-style-1;
           size: 28px;
@@ -572,6 +574,7 @@ h1 {
         }
 
         &:nth-child(1) {
+          gap: 10px;
         }
         &:nth-child(2) {
 
