@@ -675,6 +675,12 @@ h1 {
   letter-spacing: .5px;
 }
 
+.block.services .row:nth-child(2) .col:nth-child(2) .text_box {
+  width: 100%;
+  max-width: 400px;
+  height: 168px;
+}
+
 .block.services .row:nth-child(2) .col:nth-child(2) ul {
   list-style: none;
 }
