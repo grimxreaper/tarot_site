@@ -561,17 +561,27 @@ h1 {
     }
 
     &:nth-child(2) {
+      justify-content: space-between;
       .col {
         .service_title {
           @include heading-style-1;
           size: 28px;
           line-height: 42px;
+          letter-spacing: .5px;
 
         }
 
         &:nth-child(1) {
         }
         &:nth-child(2) {
+
+          ul {
+            list-style: none;
+
+          }
+          li {
+            font-family: $body;
+          }
         }
       }
     }

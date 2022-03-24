@@ -661,11 +661,26 @@ h1 {
   padding: 0px 20px;
 }
 
+.block.services .row:nth-child(2) {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .block.services .row:nth-child(2) .col .service_title {
   color: #121127;
   font-family: "Black Mango Bold";
   size: 28px;
   line-height: 42px;
+  letter-spacing: .5px;
+}
+
+.block.services .row:nth-child(2) .col:nth-child(2) ul {
+  list-style: none;
+}
+
+.block.services .row:nth-child(2) .col:nth-child(2) li {
+  font-family: "Quicksand";
 }
 
 .block.services .image_container img {
