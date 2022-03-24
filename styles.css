@@ -467,6 +467,8 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  gap: 25px;
+  margin: 0 122px;
 }
 
 .block.hero-2 .row .col:nth-child(1) {

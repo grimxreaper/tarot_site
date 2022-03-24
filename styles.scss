@@ -422,6 +422,8 @@ h1 {
   .row {
     display: flex;
     flex-direction: row;
+    gap: 25px;
+    margin: 0 122px;
 
     .col {
       &:nth-child(1) {
