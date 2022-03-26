@@ -496,6 +496,13 @@ h1 {
   .portrait {
     width: 100%;
     max-width: 413px;
+
+    @media screen and (max-width: 820px) {
+      width: 100%;
+      max-width: 300px;
+    }
+
+
   }
 
   .cta-container {
