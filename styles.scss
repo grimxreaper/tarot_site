@@ -418,22 +418,24 @@ h1 {
 }
 
 .block.hero-2 {
-  background-color: #F9F9FB;
+  background-color: #f9f9fb;
   .row {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 38px;
     margin: 0 122px;
 
     .col {
       &:nth-child(1) {
         width: 100%;
         max-width: 530px;
+        margin-top: 125px;
+        margin-bottom: 162px;
       }
 
       &:nth-child(2) {
         position: relative;
-        margin-top: 49px;
+        margin-top: 217px;
 
         h1 {
           @include heading-style-1;
