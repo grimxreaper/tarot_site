@@ -778,12 +778,13 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
+  gap: 19px;
 }
 
-.block.services .row:nth-child(2) .col:nth-child(2) .sparkle_container .beige_sparkle {
+.block.services .row:nth-child(2) .col:nth-child(2) .beige_sparkle {
   width: 100%;
   max-width: 28px;
+  margin-top: 5px;
 }
 
 .block.services .row:nth-child(2) .col:nth-child(2) ul {
@@ -792,6 +793,10 @@ h1 {
 
 .block.services .row:nth-child(2) .col:nth-child(2) li {
   font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 17px;
+  margin-left: 15px;
 }
 
 .block.services .service_block {
