@@ -639,7 +639,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
+  margin: 127px 0px 70px 0px;
 }
 
 .block.services .row:nth-child(1) .sparkle_container {
@@ -685,7 +685,7 @@ h1 {
 }
 
 .block.services .row:nth-child(2) .col:nth-child(1) {
-  gap: 10px;
+  gap: 50px;
 }
 
 .block.services .row:nth-child(2) .col:nth-child(2) .text_box {
