@@ -764,6 +764,28 @@ h1 {
   height: 168px;
 }
 
+.block.services .row:nth-child(2) .col:nth-child(2) .info_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block.services .row:nth-child(2) .col:nth-child(2) .sparkle_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.block.services .row:nth-child(2) .col:nth-child(2) .sparkle_container .beige_sparkle {
+  width: 100%;
+  max-width: 28px;
+}
+
 .block.services .row:nth-child(2) .col:nth-child(2) ul {
   list-style: none;
 }

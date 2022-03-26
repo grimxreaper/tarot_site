@@ -514,8 +514,6 @@ h1 {
       width: 100%;
       max-width: 300px;
     }
-
-
   }
 
   .cta-container {
@@ -624,6 +622,22 @@ h1 {
             width: 100%;
             max-width: 400px;
             height: 168px;
+          }
+
+          .info_box {
+            display: flex;
+          }
+          .sparkle_container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .beige_sparkle {
+              width: 100%;
+              max-width: 28px;
+            }
+
+            
           }
 
           ul {
