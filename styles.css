@@ -471,7 +471,6 @@ h1 {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 38px;
-  margin: 0 122px;
 }
 
 .block.hero-2 .row .col:nth-child(1) {
