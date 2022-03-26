@@ -168,7 +168,6 @@ h1 {
 
 .block.hero-1 {
   display: flex;
-  margin-bottom: 200px;
   width: 100%;
 
   .wrapper {
@@ -419,6 +418,7 @@ h1 {
 }
 
 .block.hero-2 {
+  background-color: #F9F9FB;
   .row {
     display: flex;
     flex-direction: row;
@@ -575,7 +575,7 @@ h1 {
         }
 
         &:nth-child(1) {
-          gap: 50px;
+          gap: 138px;
         }
         &:nth-child(2) {
           .text_box {
