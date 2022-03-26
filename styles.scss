@@ -562,6 +562,7 @@ h1 {
 
     &:nth-child(2) {
       justify-content: space-around;
+      margin-bottom: 150px;
 
       .col {
         display: flex;
@@ -570,15 +571,13 @@ h1 {
           @include heading-style-1;
           size: 28px;
           line-height: 42px;
-          letter-spacing: .5px;
-
+          letter-spacing: 0.5px;
         }
 
         &:nth-child(1) {
           gap: 50px;
         }
         &:nth-child(2) {
-
           .text_box {
             width: 100%;
             max-width: 400px;
@@ -587,7 +586,6 @@ h1 {
 
           ul {
             list-style: none;
-
           }
           li {
             font-family: $body;
@@ -602,6 +600,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 18px;
   }
 
   .image_container {

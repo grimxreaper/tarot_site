@@ -664,6 +664,7 @@ h1 {
 .block.services .row:nth-child(2) {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 150px;
 }
 
 .block.services .row:nth-child(2) .col {
@@ -681,7 +682,7 @@ h1 {
   font-family: "Black Mango Bold";
   size: 28px;
   line-height: 42px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .block.services .row:nth-child(2) .col:nth-child(1) {
@@ -716,6 +717,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 18px;
 }
 
 .block.services .image_container img {
