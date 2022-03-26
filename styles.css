@@ -471,6 +471,9 @@ h1 {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .block.hero-2 .row .col:nth-child(1) {
@@ -482,7 +485,7 @@ h1 {
 
 .block.hero-2 .row .col:nth-child(2) {
   position: relative;
-  margin-top: 217px;
+  margin-top: 179px;
 }
 
 .block.hero-2 .row .col:nth-child(2) h1 {
