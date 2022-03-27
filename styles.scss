@@ -467,7 +467,7 @@ h1 {
         }
 
         .titles {
-          font-family:"Black Mango Light";
+          font-family: "Black Mango Light";
           margin-bottom: 10px;
           font-size: 40px;
         }
@@ -634,7 +634,6 @@ h1 {
           }
         }
         &:nth-child(2) {
-
           @media screen and (max-width: 820px) {
             flex-direction: column-reverse;
             align-items: center;
@@ -658,8 +657,6 @@ h1 {
             display: flex;
             flex-direction: column;
             gap: 19px;
-
-            
           }
           .beige_sparkle {
             width: 100%;
@@ -699,8 +696,6 @@ h1 {
   }
 }
 
-
-
 .modal {
   position: fixed;
   top: 50%;
@@ -716,7 +711,7 @@ h1 {
   height: 468px;
 
   .col_modal {
-    &:nth-child(1){
+    &:nth-child(1) {
       width: 100%;
       max-width: 300px;
     }
@@ -725,8 +720,17 @@ h1 {
   .modal_text {
     font-family: $body;
   }
+}
 
-  
+.cta_container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.btn_style_1 {
+  @include btn-style-1;
+  color: white;
 }
 
 .row_modal {
@@ -747,9 +751,6 @@ h1 {
   width: 100%;
   max-width: 310px;
 }
-
-
-
 
 i.fab.fa-github,
 i.fab.fa-twitter {
