@@ -720,24 +720,33 @@ border-radius: 24px;
       align-items: center;
       margin: 0px 50px;
     }
+    &:nth-child(2){
+      margin-top: 74px;
+      margin-bottom: 100px;
+    }
 
   }
+li {
+  font-family: $body;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
 
-  .modal_text {
-    font-family: $body;
-    font-size: 20px;
-  }
 }
 
 .modal_body {
   width: 100%;
   max-width: 584px;
+  margin: 0px 30px;
 }
 
 .cta_container {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
+  margin-left: -22px
+;
 }
 
 .btn_style_1 {
