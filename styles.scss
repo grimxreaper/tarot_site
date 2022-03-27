@@ -701,38 +701,34 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color:  #E5E5E5;
+  background-color: #e5e5e5;
   z-index: 10;
   width: 100%;
   max-width: 1078px;
   display: flex;
   height: 502px;
-  background: #FFFFFF;
-box-shadow: 0px 10px 80px -16px rgba(0, 0, 0, 0.14);
-border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0px 10px 80px -16px rgba(0, 0, 0, 0.14);
+  border-radius: 24px;
 
   .col_modal {
-    
     &:nth-child(1) {
       width: 100%;
       max-width: 300px;
       display: flex;
-      align-items: center;
-      margin: 0px 50px;
+      margin: 74px 50px 30px 50px;
     }
-    &:nth-child(2){
+    &:nth-child(2) {
       margin-top: 74px;
       margin-bottom: 100px;
     }
-
   }
-li {
-  font-family: $body;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-}
-
+  li {
+    font-family: $body;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
 }
 
 .modal_body {
@@ -745,8 +741,7 @@ li {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-  margin-left: -22px
-;
+  margin-left: -22px;
 }
 
 .btn_style_1 {
@@ -771,7 +766,6 @@ li {
     max-width: 40px;
   }
 }
-
 
 .modal_title {
   @include heading-style-1;
