@@ -701,19 +701,22 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: white;
+  background-color:  #E5E5E5;
   z-index: 10;
   width: 100%;
-  max-width: 600px;
+  max-width: 1078px;
   display: flex;
-  height: 468px;
+  height: 502px;
+  background: #FFFFFF;
+box-shadow: 0px 10px 80px -16px rgba(0, 0, 0, 0.14);
+border-radius: 24px;
 
   .col_modal {
     &:nth-child(1) {
       width: 100%;
       max-width: 300px;
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -721,6 +724,11 @@ h1 {
     font-family: $body;
     font-size: 20px;
   }
+}
+
+.modal_body {
+  width: 100%;
+  max-width: 584px;
 }
 
 .cta_container {
