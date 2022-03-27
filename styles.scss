@@ -699,6 +699,58 @@ h1 {
   }
 }
 
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 10;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  height: 468px;
+
+  .col_modal {
+    &:nth-child(1){
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  .modal_text {
+    font-family: $body;
+  }
+
+  
+}
+
+.row_modal {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal_header {
+  padding: 10px 15px;
+  display: flex;
+}
+
+.modal_title {
+  @include heading-style-1;
+}
+
+.modal_image {
+  width: 100%;
+  max-width: 310px;
+}
+
+
+
+
 i.fab.fa-github,
 i.fab.fa-twitter {
   font-size: 30px;
