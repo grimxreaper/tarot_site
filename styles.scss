@@ -711,7 +711,6 @@ h1 {
   height: 468px;
 
   .col_modal {
-
     &:nth-child(1) {
       width: 100%;
       max-width: 300px;
@@ -744,7 +743,15 @@ h1 {
 .modal_header {
   padding: 10px 15px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .close_button {
+    width: 100%;
+    max-width: 40px;
+  }
 }
+
 
 .modal_title {
   @include heading-style-1;
@@ -756,7 +763,7 @@ h1 {
   max-width: 310px;
 }
 
-.session_price{
+.session_price {
   font-family: $body;
   font-size: 18px;
 }
