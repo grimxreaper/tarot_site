@@ -627,12 +627,13 @@ h1 {
 }
 .modal .modal_text {
   font-family: "Quicksand";
+  font-size: 20px;
 }
 
 .cta_container {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  margin-top: 30px;
 }
 
 .btn_style_1 {
@@ -647,6 +648,7 @@ h1 {
   padding: 15px 30px;
   margin-right: 30px;
   color: white;
+  font-size: 18px;
 }
 
 .row_modal {
@@ -662,11 +664,21 @@ h1 {
 .modal_title {
   color: #121127;
   font-family: "Black Mango Bold";
+  font-size: 30px;
 }
 
 .modal_image {
   width: 100%;
   max-width: 310px;
+}
+
+.session_price {
+  font-family: "Quicksand";
+  font-size: 18px;
+}
+
+.packages {
+  font-family: "Quicksand";
 }
 
 i.fab.fa-github,

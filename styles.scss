@@ -711,6 +711,7 @@ h1 {
   height: 468px;
 
   .col_modal {
+
     &:nth-child(1) {
       width: 100%;
       max-width: 300px;
@@ -719,18 +720,20 @@ h1 {
 
   .modal_text {
     font-family: $body;
+    font-size: 20px;
   }
 }
 
 .cta_container {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  margin-top: 30px;
 }
 
 .btn_style_1 {
   @include btn-style-1;
   color: white;
+  font-size: 18px;
 }
 
 .row_modal {
@@ -745,11 +748,21 @@ h1 {
 
 .modal_title {
   @include heading-style-1;
+  font-size: 30px;
 }
 
 .modal_image {
   width: 100%;
   max-width: 310px;
+}
+
+.session_price{
+  font-family: $body;
+  font-size: 18px;
+}
+
+.packages {
+  font-family: $body;
 }
 
 i.fab.fa-github,
