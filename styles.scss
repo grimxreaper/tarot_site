@@ -714,7 +714,7 @@ h1 {
   .col_modal {
     &:nth-child(1) {
       width: 100%;
-      max-width: 300px;
+      max-width: 310px;
       display: flex;
       margin: 74px 50px 30px 50px;
     }
@@ -725,9 +725,10 @@ h1 {
   }
   li {
     font-family: $body;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.2px;
+    font-size: 18px;
   }
 }
 
@@ -761,15 +762,13 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
 
-  .close_button {
-    width: 100%;
-    max-width: 40px;
-  }
 }
 
 .modal_title {
   @include heading-style-1;
   font-size: 30px;
+  letter-spacing: 0.2px;
+  line-height: 42px;
 }
 
 .modal_image {
@@ -784,6 +783,24 @@ h1 {
 
 .packages {
   font-family: $body;
+}
+
+.row_btn {
+  height: 25px;
+  width: 100%;
+  max-width: 30px;
+  margin: 30px 30px;
+}
+
+.close_button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color:rgb(49, 49, 49);
+
 }
 
 i.fab.fa-github,
