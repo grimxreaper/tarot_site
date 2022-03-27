@@ -465,6 +465,10 @@ h1 {
           font-size: 44px;
           color: #000;
         }
+
+        .titles {
+          font-family: $body;
+        }
         .bio {
           font-family: $body;
           font-size: 22px;
@@ -626,6 +630,7 @@ h1 {
 
           .info_box {
             display: flex;
+            margin: 50px 0px 70px 0px;
           }
           .sparkle_container {
             display: flex;

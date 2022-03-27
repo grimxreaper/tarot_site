@@ -535,6 +535,10 @@ h1 {
   color: #000;
 }
 
+.block.hero-2 .row .col:nth-child(2) .titles {
+  font-family: "Quicksand";
+}
+
 .block.hero-2 .row .col:nth-child(2) .bio {
   font-family: "Quicksand";
   font-size: 22px;
@@ -768,6 +772,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 50px 0px 70px 0px;
 }
 
 .block.services .row:nth-child(2) .col:nth-child(2) .sparkle_container {
