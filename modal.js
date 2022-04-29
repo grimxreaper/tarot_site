@@ -1,0 +1,1 @@
+const portfolioContainer = document.querySelector('.service_block.counseling');
