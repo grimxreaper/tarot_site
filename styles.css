@@ -843,7 +843,7 @@ h1 {
   margin-left: 15px;
 }
 
-.block.services .service_block.counseling,
+.block.services .service_block_counseling,
 .block.services .service_block.courses,
 .block.services .service_block.tarot {
   display: -webkit-box;
