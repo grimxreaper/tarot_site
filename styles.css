@@ -1015,7 +1015,7 @@ i.fab.fa-twitter {
   font-size: 30px;
 }
 
-@-webkit-keyframes modalFade {
+@-webkit-keyframes modalIn {
   0% {
     opacity: 0;
   }
@@ -1024,12 +1024,30 @@ i.fab.fa-twitter {
   }
 }
 
-@keyframes modalFade {
+@keyframes modalIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes modalOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes modalOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

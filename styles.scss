@@ -814,7 +814,14 @@ i.fab.fa-twitter {
   font-size: 30px;
 }
 
-@keyframes modalFade {
+@keyframes modalIn {
   0% { opacity: 0; }
   100% {opacity: 1; }
+
+}
+
+@keyframes modalOut {
+  0% { opacity: 1; }
+  100% {opacity: 0; }
+  
 }

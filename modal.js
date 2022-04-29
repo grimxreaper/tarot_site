@@ -16,12 +16,23 @@ if (counselingBlock) {
     //opens modal and adds animation
     const modalOpen = _ => {
         modal.classList.add("is-open");
-        modal.style.animation = 'modalFade 500ms forwards'
+        modal.style.animation = 'modalIn 500ms forwards'
+    }
+
+    const modalClose = _ => {
+        modal.classList.remove('is-open')
+        modal.removeEventListener('animationend', modalClose)
     }
     //closes modal
-    closeButton.addEventListener("click", (_) => {
-      modal.classList.remove("is-open");
+    closeButton.addEventListener("click", _ => {
+        modal.style.animation = 'modalOut 500ms forwards'
+        // modal.classList.remove("is-open");
+        modal.addEventListener('animationend', modalClose)
     });
+
+    document.addEventListener('keydown', e => {
+        console.log(e)
+    })
 
     modalOpen()
   });
