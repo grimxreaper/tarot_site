@@ -12,13 +12,17 @@ if (counselingBlock) {
     //target parent and then the parent's sibling
     const modal = modalToggle.parentNode.nextElementSibling;
     const closeButton = modal.querySelector(".close_button");
-    //opens modal
-    modal.classList.add("is-open");
+
+    //opens modal and adds animation
+    const modalOpen = _ => {
+        modal.classList.add("is-open");
+        modal.style.animation = 'modalFade 500ms forwards'
+    }
     //closes modal
     closeButton.addEventListener("click", (_) => {
       modal.classList.remove("is-open");
     });
 
-    //
+    modalOpen()
   });
 }

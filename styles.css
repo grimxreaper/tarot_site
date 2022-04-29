@@ -1014,4 +1014,22 @@ i.fab.fa-github,
 i.fab.fa-twitter {
   font-size: 30px;
 }
+
+@-webkit-keyframes modalFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes modalFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
