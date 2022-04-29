@@ -886,6 +886,12 @@ h1 {
   border-radius: 24px;
 }
 
+.modal.is-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .modal .col_modal:nth-child(1) {
   width: 100%;
   max-width: 310px;

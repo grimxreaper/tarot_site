@@ -12,6 +12,8 @@ if (counselingBlock) {
 //target parent and then the parent's sibling
         const modal = modalToggle.parentNode.nextElementSibling
 
+        modal.classList.add('is-open')
+
     })
 }
 

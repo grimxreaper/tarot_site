@@ -713,6 +713,10 @@ h1 {
   box-shadow: 0px 10px 80px -16px rgba(0, 0, 0, 0.14);
   border-radius: 24px;
 
+  &.is-open {
+    display: flex;
+  }
+
   .col_modal {
     &:nth-child(1) {
       width: 100%;
