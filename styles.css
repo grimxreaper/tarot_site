@@ -801,6 +801,18 @@ h1 {
   height: 168px;
 }
 
+.block.services .row:nth-child(2) .col:nth-child(2) .text_box ul {
+  list-style: none;
+}
+
+.block.services .row:nth-child(2) .col:nth-child(2) .text_box li {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 17px;
+  margin-left: 15px;
+}
+
 .block.services .row:nth-child(2) .col:nth-child(2) .info_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -829,18 +841,6 @@ h1 {
   width: 100%;
   max-width: 28px;
   margin-top: 5px;
-}
-
-.block.services .row:nth-child(2) .col:nth-child(2) ul {
-  list-style: none;
-}
-
-.block.services .row:nth-child(2) .col:nth-child(2) li {
-  font-family: "Quicksand";
-  font-weight: 500;
-  font-size: 26px;
-  margin-bottom: 17px;
-  margin-left: 15px;
 }
 
 .block.services .service_block_counseling,
