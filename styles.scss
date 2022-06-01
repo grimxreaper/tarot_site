@@ -715,11 +715,10 @@ h1 {
   border-radius: 24px;
 
   @media screen and (max-width: 947px) {
-
-
+    width: 400px;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
   }
-
-
 
   &.is-open {
     display: flex;
@@ -733,8 +732,10 @@ h1 {
       margin: 74px 50px 30px 50px;
     }
     &:nth-child(2) {
-      margin-top: 74px;
-      margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 57px;
     }
   }
 
@@ -751,6 +752,11 @@ h1 {
   width: 100%;
   max-width: 584px;
   margin: 0px 30px;
+
+
+  @media screen and (max-width: 947px) {
+    margin: 30px 30px;
+  }
 }
 
 .cta_container {
@@ -758,6 +764,12 @@ h1 {
   flex-direction: row;
   margin-top: 30px;
   margin-left: -22px;
+
+  @media screen and (max-width: 947px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+
 }
 
 .btn_style_1 {
@@ -769,6 +781,11 @@ h1 {
 .row_modal {
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 947px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .modal_header {
