@@ -841,6 +841,52 @@ h1 {
 
 }
 
+.block.testimonials {
+
+  background-color: #F9F9FB;
+  
+
+  .row {
+    display: flex;
+
+
+    &:nth-child(1){
+      flex-direction: column;
+
+
+      .hollow_sparkle{
+        width: 30px;
+      }
+
+    }
+
+    &:nth-child(2){
+      flex-direction: row;
+      gap: 35px;
+    }
+
+    
+  }
+
+  .testimonial_box {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 524px;
+    height: 231px;
+    gap: 32px;
+
+
+
+  }
+  
+
+}
+
+
+
+
+
 i.fab.fa-github,
 i.fab.fa-twitter {
   font-size: 30px;

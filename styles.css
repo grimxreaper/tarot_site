@@ -1060,6 +1060,49 @@ h1 {
   color: #313131;
 }
 
+.block.testimonials {
+  background-color: #F9F9FB;
+}
+
+.block.testimonials .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block.testimonials .row:nth-child(1) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block.testimonials .row:nth-child(1) .hollow_sparkle {
+  width: 30px;
+}
+
+.block.testimonials .row:nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 35px;
+}
+
+.block.testimonials .testimonial_box {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 524px;
+  height: 231px;
+  gap: 32px;
+}
+
 i.fab.fa-github,
 i.fab.fa-twitter {
   font-size: 30px;
