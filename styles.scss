@@ -846,17 +846,18 @@ h1 {
   background-color: #F9F9FB;
   padding: 130px 20px 130px 20px;
   position: relative;
+  z-index: -2;
 
 
   .orb {
     position: absolute;
     top: -63px;
     left: -50px;
-    z-index: 0;
+    z-index: -5;
   }
 
   .col {
-    z-index: 9;
+    z-index: 2;
   }
 
   .hollow_sparkle{
@@ -870,18 +871,6 @@ h1 {
   .row {
     display: flex;
     gap: 25px;
-
-
-    &:nth-child(1){
-      background-color: red;
-    }
-
-    &:nth-child(2){
-      background-color: yellow;
-
-
-    }
-
 
   }
   

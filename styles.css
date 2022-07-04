@@ -1064,17 +1064,18 @@ h1 {
   background-color: #F9F9FB;
   padding: 130px 20px 130px 20px;
   position: relative;
+  z-index: -2;
 }
 
 .block.testimonials .orb {
   position: absolute;
   top: -63px;
   left: -50px;
-  z-index: 0;
+  z-index: -5;
 }
 
 .block.testimonials .col {
-  z-index: 9;
+  z-index: 2;
 }
 
 .block.testimonials .hollow_sparkle {
@@ -1090,14 +1091,6 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   gap: 25px;
-}
-
-.block.testimonials .row:nth-child(1) {
-  background-color: red;
-}
-
-.block.testimonials .row:nth-child(2) {
-  background-color: yellow;
 }
 
 .block.testimonials .testimonial_box {
