@@ -43,6 +43,11 @@
   padding: 0;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 $body: "Quicksand";
 
 // .page_wrapper {
@@ -232,6 +237,7 @@ h1 {
 
       @media (max-width: 768px) {
         padding-left: 23px;
+        padding-bottom: 40px;
       }
     }
 
@@ -627,7 +633,7 @@ h1 {
         }
 
         &:nth-child(1) {
-          gap: 138px;
+          gap: 93px;
 
           @media screen and (max-width: 820px) {
             gap: 0px;
