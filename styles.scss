@@ -849,10 +849,17 @@ h1 {
   z-index: -2;
 
 
-  .orb {
+  .orb.left {
     position: absolute;
     top: -63px;
     left: -50px;
+    z-index: -5;
+  }
+
+  .orb.right{
+    position: absolute;
+    top: 190px;
+    right: -53px;
     z-index: -5;
   }
 
@@ -886,6 +893,9 @@ h1 {
     border-radius: 12px;
     box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
     padding: 25px;
+    font-family: $body;
+    line-height: 29px;
+    color: #201F37;
   }
   
 
