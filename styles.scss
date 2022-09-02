@@ -43,7 +43,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -680,8 +681,6 @@ h1 {
             max-width: 28px;
             margin-top: 5px;
           }
-
-          
         }
       }
     }
@@ -759,7 +758,6 @@ h1 {
   max-width: 584px;
   margin: 0px 30px;
 
-
   @media screen and (max-width: 947px) {
     margin: 30px 30px;
   }
@@ -775,7 +773,6 @@ h1 {
     flex-direction: column;
     gap: 30px;
   }
-
 }
 
 .btn_style_1 {
@@ -799,7 +796,6 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .modal_title {
@@ -837,17 +833,14 @@ h1 {
   background: none;
   font-size: 2rem;
   font-weight: bold;
-  color:rgb(49, 49, 49);
-
+  color: rgb(49, 49, 49);
 }
 
 .block.testimonials {
-
-  background-color: #F9F9FB;
+  background-color: #f9f9fb;
   padding: 130px 20px 130px 20px;
   position: relative;
   z-index: -2;
-
 
   .orb.left {
     position: absolute;
@@ -856,7 +849,7 @@ h1 {
     z-index: -5;
   }
 
-  .orb.right{
+  .orb.right {
     position: absolute;
     top: 190px;
     right: -53px;
@@ -867,24 +860,62 @@ h1 {
     z-index: 2;
   }
 
-  .hollow_sparkle{
+  .hollow_sparkle {
     width: 30px;
   }
 
   .heading {
     padding-bottom: 20px;
+    display: flex;
+    gap: 278px;
+
+    .col {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .arrow_left_box {
+    background: rgba(18, 17, 39, 0.04);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    width: 72px;
+    height: 48px;
+  }
+
+  .fa-solid {
+    font-size: 20px;
+  }
+
+  .arrow_right_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 72px;
+    height: 48px;
+    background: #121127;
+    border-radius: 100px;
+  }
+  .fa-solid.fa-arrow-right-long {
+    color: #fff;
   }
 
   .row {
     display: flex;
     gap: 25px;
-
   }
-  
 
   .testimonial_box {
     z-index: 9;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     width: 524px;
@@ -895,8 +926,7 @@ h1 {
     padding: 25px;
     font-family: $body;
     line-height: 29px;
-    color: #201F37;
-
+    color: #201f37;
   }
 
   .testimonial {
@@ -913,20 +943,13 @@ h1 {
     font-size: 12px;
   }
 
-
   .author.photo {
     object-fit: cover;
     border-radius: 50%;
     height: 100px;
     width: 100px;
   }
-  
-
 }
-
-
-
-
 
 i.fab.fa-github,
 i.fab.fa-twitter {
@@ -934,13 +957,19 @@ i.fab.fa-twitter {
 }
 
 @keyframes modalIn {
-  0% { opacity: 0; }
-  100% {opacity: 1; }
-
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes modalOut {
-  0% { opacity: 1; }
-  100% {opacity: 0; }
-  
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
