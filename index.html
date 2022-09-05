@@ -23,14 +23,22 @@
     />
     <link rel="stylesheet" href="styles.css" />
 
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.bundle.js"></script> -->
+    <!-- <script src="swiper.js"></script> -->
+    
 
     <script src="https://kit.fontawesome.com/6f0ab6cc47.js" crossorigin="anonymous"></script>
     <title>Dark Tarot</title>
@@ -435,98 +443,19 @@
             </div>
           </div>
 
-
-                    <!-- Slider main container -->
-          <div class="swiper">
+          <!-- Slider main container -->
+          <div class="swiper-container">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="slide">
-                <div class="col">
-                  <div class="testimonial_box">
-                    <div class="row">
-                      <p class="testimonial">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
-                      </p>
-                    </div>
-                    <div class="row">
-    
-                        <img class="author photo" src="./assets/sam.jpeg" alt="">
-    
-      
-                      <div class="author">
-                        <p class="name">
-                          Melissa Blair
-                        </p>
-                        <p class="profession">
-                          Woodworker, Celestial Angles
-                        </p>
-                      </div>
-                      <div class="rating">
-                        <img src="" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="col">
-                  <div class="testimonial_box">
-                    <div class="row">
-                      <p class="testimonial">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
-                      </p>
-                    </div>
-                    <div class="row">
-    
-                        <img class="author photo" src="./assets/sam.jpeg" alt="">
-    
-      
-                      <div class="author">
-                        <p class="name">
-                          Melissa Blair
-                        </p>
-                        <p class="profession">
-                          Woodworker, Celestial Angles
-                        </p>
-                      </div>
-                      <div class="rating">
-                        <img src="" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="slide">
-                <div class="col">
-                  <div class="testimonial_box">
-                    <div class="row">
-                      <p class="testimonial">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
-                      </p>
-                    </div>
-                    <div class="row">
-    
-                        <img class="author photo" src="./assets/sam.jpeg" alt="">
-    
-      
-                      <div class="author">
-                        <p class="name">
-                          Melissa Blair
-                        </p>
-                        <p class="profession">
-                          Woodworker, Celestial Angles
-                        </p>
-                      </div>
-                      <div class="rating">
-                        <img src="" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -538,6 +467,7 @@
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
           </div>
+
 
 
 
@@ -646,6 +576,7 @@
           </div> -->
         </div>
 
+
       </section>
 
       <footer>
@@ -660,37 +591,8 @@
         </div>
       </footer>
     </div>
-    <script>
-
-      const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-        slidesPerView: 2.5,
-      spaceBetween: 30,
-
-        centeredSlides: true,
-      
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      });
-    </script>
-
-
+   
   </body>
+  
   <script src="modal.js"></script>
 </html>
