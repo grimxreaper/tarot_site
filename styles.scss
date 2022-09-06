@@ -978,7 +978,23 @@ i.fab.fa-twitter {
   }
 }
 
-.swiper {
+.swiper-container {
   width: 600px;
   height: 300px;
 }
+
+.swiper-slide {
+    z-index: 9;
+    // background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 524px;
+    height: auto;
+    gap: 32px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    padding: 25px;
+    font-family: $body;
+    line-height: 29px;
+    color: #201f37;
+      }

@@ -1254,8 +1254,29 @@ i.fab.fa-twitter {
   }
 }
 
-.swiper {
+.swiper-container {
   width: 600px;
   height: 300px;
+}
+
+.swiper-slide {
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 524px;
+  height: auto;
+  gap: 32px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+          box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+  padding: 25px;
+  font-family: "Quicksand";
+  line-height: 29px;
+  color: #201f37;
 }
 /*# sourceMappingURL=styles.css.map */
