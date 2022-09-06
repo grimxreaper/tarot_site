@@ -22,14 +22,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-  
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <script src="https://kit.fontawesome.com/6f0ab6cc47.js" crossorigin="anonymous"></script>
     <title>Dark Tarot</title>
@@ -408,8 +402,11 @@
 
       <section class="block testimonials">
         <div class="wrapper">
-          <img class="orb left" src="./assets/Ellipse 5.svg" alt="">
-          <img class="orb right" src="./assets/Ellipse 6.svg" alt="">
+
+          <div class="orb_container">
+            <img class="orb left" src="./assets/Ellipse 5.svg" alt="">
+            <img class="orb right" src="./assets/Ellipse 6.svg" alt="">
+          </div>
 
           <div class="heading">
             <div class="col">
@@ -434,33 +431,159 @@
             </div>
           </div>
 
-          <!-- Slider main container -->
-          <div class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 3</div>
-              ...
+
+
+          <div class="carousel"
+          data-flickity='{ "wrapAround": true, "cellAlign": "left" }'>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
+
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-          </div>
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
 
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
 
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="testimonial_box">
+                <div class="row">
+                  <p class="testimonial">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit exercitation veniam.
+                  </p>
+                </div>
+                <div class="row">
+                  <img class="author photo" src="./assets/sam.jpeg" alt="">
 
+                  <div class="author">
+                    <p class="name">
+                      Melissa Blair
+                    </p>
+                    <p class="profession">
+                      Woodworker, Celestial Angles
+                    </p>
+                  </div>
+                  <div class="rating">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+</div>
+     
+
+        <!-- <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'> -->
+          
 
           <!-- <div class="row">
 
@@ -566,9 +689,18 @@
 
           </div> -->
         </div>
-
-
       </section>
+
+      <!-- <section class="block testimonials">
+        <div class="carousel"
+        data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">hi</div>
+        <div class="carousel-cell">hello</div>
+        <div class="carousel-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio fugit sapiente enim laudantium nesciunt nam, omnis corporis adipisci accusantium odio ullam. Cumque, perspiciatis cupiditate ducimus provident at error pariatur?</div>
+        <div class="carousel-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex facilis modi blanditiis iste in dolorem neque praesentium unde recusandae facere? Natus quam ab nobis voluptatibus commodi illo vel molestias non?</div>
+        <div class="carousel-cell">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illum fugit debitis quos ullam reiciendis nulla dicta hic expedita quo fugiat, deleniti amet magnam perferendis culpa illo eum omnis repudiandae?</div>
+      </div>
+    </section> -->
 
       <footer>
         <div class="wrapper">
@@ -582,7 +714,7 @@
         </div>
       </footer>
     </div>
-   
+
   </body>
   
   <script src="modal.js"></script>
