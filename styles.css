@@ -1268,7 +1268,7 @@ i.fab.fa-twitter {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 524px;
+  width: 524px !important;
   height: auto;
   gap: 32px;
   border-radius: 12px;
