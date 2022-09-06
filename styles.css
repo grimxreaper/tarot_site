@@ -1212,7 +1212,7 @@ i.fab.fa-twitter {
 
 .flickity-button:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 5px !important;
-          box-shadow: 0 0 0 5px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 /*# sourceMappingURL=styles.css.map */
