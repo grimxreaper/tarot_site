@@ -936,6 +936,21 @@ h1 {
     line-height: 29px;
     color: #201f37;
     counter-increment: carousel-cell;
+
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+        .col {
+          &:nth-child(2) {
+            margin-top: 5px;
+          }
+        }
+      
+
+    }
   }
 
   .testimonial {
@@ -949,14 +964,15 @@ h1 {
   }
 
   .profession {
-    font-size: 12px;
+    font-size: 14px;
+    margin-top: -5px;
   }
 
   .author.photo {
     object-fit: cover;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 74px;
+    width: auto;
   }
 }
 
