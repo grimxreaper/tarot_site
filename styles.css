@@ -783,6 +783,7 @@ h1 {
 }
 .block.testimonials .hollow_sparkle {
   width: 30px;
+  margin-top: -24px;
 }
 .block.testimonials .heading {
   padding-bottom: 20px;
@@ -802,7 +803,6 @@ h1 {
   height: auto;
   gap: 32px;
   border-radius: 12px;
-  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
   padding: 25px;
   font-family: "Quicksand";
   line-height: 29px;
