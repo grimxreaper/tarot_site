@@ -53,18 +53,7 @@ body {
 
 $body: "Quicksand";
 
-// .page_wrapper {
-//   width: 100%;
-//   max-width: 1080px;
-//   margin: 0 auto;
-//   padding: 0px 30px;
-// }
-
 h1 {
-  // font-family: "Marcellus", serif;
-  // font-family: 'black_mangobold';
-  // src: url('blackmango-bold-webfont.woff2') format('woff2'),
-  //      url('blackmango-bold-webfont.woff') format('woff');
   font-family: "Black Mango Bold";
   font-size: 40px;
 }
@@ -390,39 +379,6 @@ h1 {
     @media screen and (max-width: 900px) {
       width: 49px;
     }
-
-    // @media screen and (max-width: 1196px) {
-    //   width: 63px;
-    //   left: 42px;
-    //   top: 130px;
-    // }
-    // @media screen and (max-width: 952px) {
-    //   width: 49px;
-    //   left: 40px;
-    //   top: 166px;
-    // }
-
-    // @media (max-width: 768px) {
-    //   width: 52px;
-    //   left: 190px;
-    //   top: 45px;
-    // }
-
-    // @media (max-width: 623px) {
-    //   width: 52px;
-    //   left: 130px;
-    //   top: 35px;
-    // }
-
-    // @media (max-width: 516px) {
-    //   width: 52px;
-    //   left: 52px;
-    //   top: 35px;
-    // }
-
-    // @media (max-width: 347px) {
-    //   display: none;
-    // }
   }
 }
 
@@ -997,4 +953,37 @@ i.fab.fa-twitter {
 .flickity-button:focus {
   outline: 0;
   box-shadow: none !important;
+}
+
+.footer.section {
+  .wrapper {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        &:nth-child(2){
+          gap: 220px;
+        }
+
+        .col {
+          display: flex;
+          flex-direction: row;
+
+          &:nth-child(2){
+            margin-top: 50px; 
+            gap: 26px;
+          }
+  
+        }
+
+    }
+    .logo_title {
+      margin-top: 50px;
+    }
+    .fa-github, .fa-twitter {
+      color: black;
+    }
+  }
+
 }

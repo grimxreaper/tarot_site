@@ -873,4 +873,27 @@ i.fab.fa-twitter {
   box-shadow: none !important;
 }
 
+.footer.section .wrapper .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer.section .wrapper .row:nth-child(2) {
+  gap: 220px;
+}
+.footer.section .wrapper .row .col {
+  display: flex;
+  flex-direction: row;
+}
+.footer.section .wrapper .row .col:nth-child(2) {
+  margin-top: 50px;
+  gap: 26px;
+}
+.footer.section .wrapper .logo_title {
+  margin-top: 50px;
+}
+.footer.section .wrapper .fa-github, .footer.section .wrapper .fa-twitter {
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
